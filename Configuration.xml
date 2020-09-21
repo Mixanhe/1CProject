@@ -198,12 +198,23 @@
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
 			<CommonPicture>ПодсистемаНСИ</CommonPicture>
 			<CommonPicture>ПодсистемаУчетМатериалов</CommonPicture>
+			<CommonModule>РаботаСДокументами</CommonModule>
+			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Должности</Catalog>
+			<Document>ДоговорНаПоставкуКомплектующих</Document>
+			<Document>ТоварнаяНакладная</Document>
+			<Document>ТребованиеНакладная</Document>
+			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
+			<Report>ОстаткиНаСкладах</Report>
+			<Report>РасходыНаПоставку</Report>
+			<InformationRegister>Цены</InformationRegister>
+			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
+			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

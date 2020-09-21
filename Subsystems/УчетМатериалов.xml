@@ -19,6 +19,13 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоговорНаПоставкуКомплектующих</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Цены</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ТоварнаяНакладная</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DocumentJournal.ДокументыНаПоставкуТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиНаСкладах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ТребованиеНакладная</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
