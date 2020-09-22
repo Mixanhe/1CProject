@@ -23,7 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">9e754195-622a-4109-a150-373c505dd744</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНаНоменклатуру</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="b9788ec6-1c78-45df-a8a2-2ecbf8ed33d4">
+	<Document uuid="8732a5fa-2e94-4256-9e69-1eea1ad08216">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ДоговорНаПоставкуКомплектующих" category="Object">
-				<xr:TypeId>a266b3da-a566-4456-b60f-136a129a9918</xr:TypeId>
-				<xr:ValueId>1478c523-e964-4fb0-bb7c-590c32813673</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.РеализацияТоваровИУслуг" category="Object">
+				<xr:TypeId>69304d4d-5a45-464d-8e3f-7532bd9f0aa7</xr:TypeId>
+				<xr:ValueId>1848ba46-a748-4a00-864e-77282d564574</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ДоговорНаПоставкуКомплектующих" category="Ref">
-				<xr:TypeId>6852cefe-2656-4dbd-9801-4bdeb34c0085</xr:TypeId>
-				<xr:ValueId>f6914736-f034-4b95-ae31-6d76863f9780</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.РеализацияТоваровИУслуг" category="Ref">
+				<xr:TypeId>6aa3484e-a5d1-4ac6-a13c-ec9c44ca39e9</xr:TypeId>
+				<xr:ValueId>9f2241b0-0e39-4ecd-8b61-64c098715ed7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ДоговорНаПоставкуКомплектующих" category="Selection">
-				<xr:TypeId>f7b85c3b-a9c4-4a22-afe7-d6c7839bffe7</xr:TypeId>
-				<xr:ValueId>2b05edf6-d682-495f-8e62-799d95257053</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.РеализацияТоваровИУслуг" category="Selection">
+				<xr:TypeId>c0012121-c665-42db-b3a3-927f27b84cab</xr:TypeId>
+				<xr:ValueId>fb2856fd-7c56-45e2-9004-f4e5533ff27a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ДоговорНаПоставкуКомплектующих" category="List">
-				<xr:TypeId>816bb505-65d8-474e-843f-3c146aef8d01</xr:TypeId>
-				<xr:ValueId>2ceeca62-0270-405a-9294-52470cd65e1d</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.РеализацияТоваровИУслуг" category="List">
+				<xr:TypeId>5dac3cf8-179f-460e-baa4-50cb7650b30f</xr:TypeId>
+				<xr:ValueId>41484777-48a8-4043-8d39-44003b465da5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ДоговорНаПоставкуКомплектующих" category="Manager">
-				<xr:TypeId>0510fbfa-2d14-4e70-8733-f49c5a364d50</xr:TypeId>
-				<xr:ValueId>fdad3dfb-b16c-4959-a5ad-a947547ce4f6</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.РеализацияТоваровИУслуг" category="Manager">
+				<xr:TypeId>db1f9d0d-8d2c-4b47-a0fe-5bcd00f50651</xr:TypeId>
+				<xr:ValueId>d0b8b97b-2ab1-4ef6-8922-483cb7a0dfc0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ДоговорНаПоставкуКомплектующих</Name>
+			<Name>РеализацияТоваровИУслуг</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Договор на поставку комплектующих</v8:content>
+					<v8:content>Реализация товаров и услуг</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,13 +43,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ДоговорНаПоставкуКомплектующих.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.РеализацияТоваровИУслуг.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.ДоговорНаПоставкуКомплектующих.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.РеализацияТоваровИУслуг.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -62,7 +62,7 @@
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Взаиморасчеты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасходыНаПоставкуСырья</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -72,12 +72,7 @@
 			<FullTextSearch>Use</FullTextSearch>
 			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Договора на поставку комплектующих</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
@@ -86,13 +81,13 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="403a7fdf-4a2d-4481-9a72-d5c0f2bfdd28">
+			<Attribute uuid="77bb3692-5942-4cd5-8bd8-de911c632933">
 				<Properties>
 					<Name>Контрагент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контрагент</v8:content>
+							<v8:content>Контрагент:</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -125,50 +120,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3e27d529-105c-4a74-a1a7-f13b6890bb4e">
-				<Properties>
-					<Name>СуммаИтог</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма итог</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="16eeb6c5-1655-4f4f-9c8d-e8b8428f0128">
+			<Attribute uuid="744be715-53b1-4260-abe6-9b2cc465fc00">
 				<Properties>
 					<Name>Склад</Name>
 					<Synonym>
@@ -207,16 +159,55 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="167f882c-bbbf-460b-80ef-74c30f6f21ab">
+				<Properties>
+					<Name>Отгрузил</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отгрузил:</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="b1dfea92-f292-4de2-b850-a50817a10e55">
+			<TabularSection uuid="d5421861-ebad-4b5f-b49c-417791fb972c">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ДоговорНаПоставкуКомплектующих.Товары" category="TabularSection">
-						<xr:TypeId>bde1e48d-d8a7-4971-996b-bab0a870ebb8</xr:TypeId>
-						<xr:ValueId>8c2ffedd-46be-4188-bd1c-3f663eab5d3e</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияТоваровИУслуг.Товары" category="TabularSection">
+						<xr:TypeId>07019bff-3eb5-4762-bab6-4707ff9c3b99</xr:TypeId>
+						<xr:ValueId>671eb1c9-e2b6-4cc4-bd4a-1b91d488f5c2</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ДоговорНаПоставкуКомплектующих.Товары" category="TabularSectionRow">
-						<xr:TypeId>4ba7b08c-dcb3-4377-a9f9-b2152d1515f2</xr:TypeId>
-						<xr:ValueId>c4dab699-708c-4506-957e-aec92b507e94</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияТоваровИУслуг.Товары" category="TabularSectionRow">
+						<xr:TypeId>2b9e9fdc-4650-455f-957b-761dbc84f1ac</xr:TypeId>
+						<xr:ValueId>19b09586-9fe1-4946-bf37-302bbc9d2a4f</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -232,7 +223,7 @@
 					<FillChecking>DontCheck</FillChecking>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="7515d94c-eabb-4d32-b39f-5a90b3983a76">
+					<Attribute uuid="91609b6a-f4aa-4a22-8ce7-93aaf63ab3cb">
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Synonym>
@@ -269,7 +260,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="e9aa4f74-d6dd-46fe-a341-e1f78454820c">
+					<Attribute uuid="9bfaaec1-3b07-48f3-822f-4f6e804261dd">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -311,7 +302,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="082df784-bee1-424d-8d57-661880a9c50f">
+					<Attribute uuid="91897392-9f61-4d62-a339-baf76d672f21">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -353,7 +344,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="dae5251c-aa62-4740-b0a6-713232bb68c6">
+					<Attribute uuid="a486cbbf-fe32-40d2-8e4e-ab44d849efda">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -397,25 +388,6 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<Template>Печать</Template>
-			<Command uuid="b9890468-39b1-4f05-99c0-f7eb9d481062">
-				<Properties>
-					<Name>Печать</Name>
-					<Synonym/>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:DocumentRef.ДоговорНаПоставкуКомплектующих</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Multiple</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Picture/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

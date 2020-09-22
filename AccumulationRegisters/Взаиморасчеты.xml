@@ -1,81 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<InformationRegister uuid="e6170075-d87c-403c-8d96-6d558296586c">
+	<AccumulationRegister uuid="1a0fa159-9d60-40c6-95f2-ba702d2abca2">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.Цены" category="Record">
-				<xr:TypeId>afff16ad-fbdb-453f-9192-b58de6cb02f5</xr:TypeId>
-				<xr:ValueId>3222962d-c47d-4d67-a40c-a28e7aca0855</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.Взаиморасчеты" category="Record">
+				<xr:TypeId>43fc65e0-bc87-415b-82d9-7e243b4f4eb2</xr:TypeId>
+				<xr:ValueId>4db3c066-d7de-4159-8729-7533339361a9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.Цены" category="Manager">
-				<xr:TypeId>1e8f40cb-3b5a-463e-88e0-ca262ba07788</xr:TypeId>
-				<xr:ValueId>f835ba6b-62ae-4f2a-a989-cc6b338225f1</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.Взаиморасчеты" category="Manager">
+				<xr:TypeId>f5907067-c177-4f0b-bff3-95176a93774e</xr:TypeId>
+				<xr:ValueId>dbdb3fbe-5099-44c8-beab-86725c239eef</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.Цены" category="Selection">
-				<xr:TypeId>a1334cb0-8841-4647-a06d-c9a35a5aeb3f</xr:TypeId>
-				<xr:ValueId>f2ed3d7d-3f4d-4862-86d0-2c46a84dc74f</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.Взаиморасчеты" category="Selection">
+				<xr:TypeId>b479fc99-dbcf-4d1b-ba45-190fd438b440</xr:TypeId>
+				<xr:ValueId>b53e95a5-5078-4be7-b757-2ecf2ebdda43</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.Цены" category="List">
-				<xr:TypeId>e431d46e-c4c8-4263-983d-196acf645969</xr:TypeId>
-				<xr:ValueId>61a286b8-99cc-446b-8128-4138d5884677</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.Взаиморасчеты" category="List">
+				<xr:TypeId>422f3dca-e66f-4fbc-af17-a0f4b061d250</xr:TypeId>
+				<xr:ValueId>3ce49697-954c-4257-8425-52e29ac845fb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.Цены" category="RecordSet">
-				<xr:TypeId>4ea2653c-6845-4861-b8bc-a2c8aa62c374</xr:TypeId>
-				<xr:ValueId>39faf5d5-a2a7-48b7-84b9-e859d07860e6</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.Взаиморасчеты" category="RecordSet">
+				<xr:TypeId>2ab3e9c2-49d6-4196-aae1-cde45b45632a</xr:TypeId>
+				<xr:ValueId>acc6d59f-168c-4454-a731-95dddc89b64b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.Цены" category="RecordKey">
-				<xr:TypeId>f79e465d-8743-4d0d-8da4-76f5a190e803</xr:TypeId>
-				<xr:ValueId>00b92880-dc95-49a3-befe-e353b76c6ef0</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.Цены" category="RecordManager">
-				<xr:TypeId>307afb63-b1b1-40f8-b8f0-7ff4ac8f1d41</xr:TypeId>
-				<xr:ValueId>410717ee-7a44-4126-a28e-5bf40ba1275b</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.Взаиморасчеты" category="RecordKey">
+				<xr:TypeId>1b78aa4c-7dd8-4006-84fd-1a316ca7451b</xr:TypeId>
+				<xr:ValueId>a92ec30a-bcbd-4dd2-86cb-a3c5c623691e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Цены</Name>
+			<Name>Взаиморасчеты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Цены</v8:content>
+					<v8:content>Взаиморасчеты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
 			<DefaultListForm/>
-			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
-			<WriteMode>RecorderSubordinate</WriteMode>
-			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<RegisterType>Balance</RegisterType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
-			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
-			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation/>
-			<ExtendedRecordPresentation/>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Цены на номенклатуру</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<DataHistory>DontUse</DataHistory>
-			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
-			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="0349686f-eef6-4299-bbdd-8e6f5383099f">
+			<Resource uuid="6b119a6a-6567-4dd5-824f-98dd2d4d1727">
 				<Properties>
-					<Name>Цена</Name>
+					<Name>Сумма</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Цена</v8:content>
+							<v8:content>Сумма</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -97,8 +77,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -108,12 +86,10 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Dimension uuid="eb0cbd22-8048-4376-871c-fa54a2463fa0">
+			<Dimension uuid="39cb1837-b8d8-4c97-8ef5-2cf837c8463f">
 				<Properties>
 					<Name>Номенклатура</Name>
 					<Synonym>
@@ -136,8 +112,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -147,14 +121,54 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>true</Master>
-					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="94b77d6a-57f3-4ea6-9345-b3af4d84a878">
+				<Properties>
+					<Name>Контрагент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
 		</ChildObjects>
-	</InformationRegister>
+	</AccumulationRegister>
 </MetaDataObject>

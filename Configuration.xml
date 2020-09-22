@@ -209,12 +209,15 @@
 			<Document>ДоговорНаПоставкуКомплектующих</Document>
 			<Document>ТоварнаяНакладная</Document>
 			<Document>ТребованиеНакладная</Document>
+			<Document>УстановкаЦенНаНоменклатуру</Document>
+			<Document>РеализацияТоваровИУслуг</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
+			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
