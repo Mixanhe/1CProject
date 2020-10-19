@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.10">
+	<Item id="288543c0-13f3-4375-a7b0-71117b8c0de1">
+		<Name>ОсновныеСредства</Name>
+		<Code>01</Code>
+		<Description>Основные средства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="4d6b3926-75c2-4cd7-beaf-9c654b6504e5">
+		<Name>АмортизацияОсновныхСредств</Name>
+		<Code>02</Code>
+		<Description>Амортизация основных средств</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="27156cf4-203b-411d-aecd-9a2112d3f1b5">
+		<Name>ДоходныеВложенияВМатериальныеСредства</Name>
+		<Code>03</Code>
+		<Description>Доходные вложения в материальные ценности</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="60a20c08-1c3e-4e68-ab64-d4a27b457211">
+		<Name>НематериальныеАктивы</Name>
+		<Code>04</Code>
+		<Description>Нематериальные активы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="51382dfd-1e99-4d13-9dec-a014e1ef2e15">
+		<Name>АмортизацияНематериальныхАктивов</Name>
+		<Code>05</Code>
+		<Description>Амортизация нематериальных активов</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="3a0386e3-8511-4f3a-9b52-969c69ed39de">
+		<Name>ОборудованиеКУстановке</Name>
+		<Code>07</Code>
+		<Description>Оборудование к установке</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="4e8eef45-3872-43cc-b5b3-89c99d5f2a64">
+		<Name>ВложенияВНеоборотныеАктивы</Name>
+		<Code>08</Code>
+		<Description>Вложения в необоротные активы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="6599a652-e62f-4b5c-8671-0542f912ac4a">
+		<Name>ОтоложенныеНалоговыеАктивы</Name>
+		<Code>09</Code>
+		<Description>Отоложенные налоговые активы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="3c211c7b-af51-47ee-bbfd-fc9f7a4616d2">
+		<Name>Материалы</Name>
+		<Code>10</Code>
+		<Description>Материалы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="66890c65-9836-42f0-aba3-15c42e502e60">
+		<Name>РезервыПодСнижениеСтоимостиМатериальныхЦенностей</Name>
+		<Code>14</Code>
+		<Description>Резервы под снижение стоимости материальных ценнос</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="16b9bc35-a1f1-4fe7-ac5b-48ce97544a72">
+		<Name>ЗаготовлениеИПриобритениеМатериальныхЦенностей</Name>
+		<Code>15</Code>
+		<Description>Заготовление и приобритение материальных ценностей</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="a845163b-302a-4225-be8b-ca8c93eb89b7">
+		<Name>ОтклонениеВСтоимостиМатериальныхЦенностей</Name>
+		<Code>16</Code>
+		<Description>Отклонение в стоимости материальных ценностей</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="6b19f2fc-6c0c-4fa3-9335-39d715d7e033">
+		<Name>НДСПоПриобритеннымЦенностям</Name>
+		<Code>19</Code>
+		<Description>Налог на добавленную стоимость</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="61f4438c-7d35-491a-8cb5-04d1983b2b93">
+		<Name>ОсновноеПроизводство</Name>
+		<Code>20</Code>
+		<Description>Основное производство</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="ae50cfd1-fbf0-4873-8544-54fe6065f22f">
+		<Name>ВспомогательныеПроизводства</Name>
+		<Code>23</Code>
+		<Description>Вспомогательные производства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="abf0c857-f3e1-4681-831c-a98ec9e6a51c">
+		<Name>ОбщепроизводственныеРасходы</Name>
+		<Code>25</Code>
+		<Description>Общепроизводственные расходы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="b6bfb41a-45db-4811-9f88-a11d4e6063ce">
+		<Name>ОбщехозяйственныеРасходы</Name>
+		<Code>26</Code>
+		<Description>Общехозяйственные расходы</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="22032743-aff2-48b3-82c4-8aa48ca4a333">
+		<Name>БракВПроизводстве</Name>
+		<Code>28</Code>
+		<Description>Брак в производстве</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="383155ad-67ce-42ab-adef-811ee90da1cb">
+		<Name>ОбслуживающиеПроизводстваИХозяйства</Name>
+		<Code>29</Code>
+		<Description>Обслуживающие производства и хозяйства</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="fa5014b4-8561-4822-939d-0b23dc745c36">
+		<Name>ВыпускПродукции</Name>
+		<Code>40</Code>
+		<Description>Выпуск продукции</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="90c87e17-4e13-4f61-904d-95845e783d44">
+		<Name>Товары</Name>
+		<Code>41</Code>
+		<Description>Товары</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="8a789c73-3b92-4544-ab06-1fa9cdb1d911">
+		<Name>ТорговаяНаценка</Name>
+		<Code>42</Code>
+		<Description>Торговая наценка</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="a1ccabeb-fe2c-4da6-ae07-24d7347e09a8">
+		<Name>ГотоваяПродукция</Name>
+		<Code>43</Code>
+		<Description>Готовая продукция</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="3882462b-6bd9-49d6-9123-394166686ff5">
+		<Name>РасходыНаПродажу</Name>
+		<Code>44</Code>
+		<Description>Расходы на продажу</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="e8a8717d-1d93-429c-9e29-22e63f5c20d0">
+		<Name>ТоварыОтгруженные</Name>
+		<Code>45</Code>
+		<Description>Товары отгруженные</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="5d7f0688-344e-419b-8c6a-4185d6b0d280">
+		<Name>ВыполненныеЭтапыПоНезавершеннымРаботам</Name>
+		<Code>46</Code>
+		<Description>Выполненные этапы по незавершенным работам</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="e50e6208-4525-4e57-8e78-f7a5f52a9e56">
+		<Name>Касса</Name>
+		<Code>50</Code>
+		<Description>Касса</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="04f25b22-d847-476a-98e2-1d630c7e844c">
+		<Name>РасчетныеСчета</Name>
+		<Code>51</Code>
+		<Description>Расчетные счета</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="fc40a719-7adf-4967-8239-6833b582d332">
+		<Name>ВалютныеСчета</Name>
+		<Code>52</Code>
+		<Description>Валютные счета</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="e69afc13-0d25-4401-99ff-6bbda50ba4f4">
+		<Name>СпециальныеСчетаВБанках</Name>
+		<Code>55</Code>
+		<Description>Специальные счета в банках</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="ff1b5359-94d4-4e7f-ad9d-e0d0b3394386">
+		<Name>ПереводыВПути</Name>
+		<Code>57</Code>
+		<Description>Переводы в пути</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="cc108226-a5b5-4e7d-ada8-7088f388c533">
+		<Name>ФинансовыеВложения</Name>
+		<Code>58</Code>
+		<Description>Финансовые вложения</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="52eb6de0-5d38-4e98-9d20-1459bee291e2">
+		<Name>РезервыПодОбесценениеФинансовыхВложений</Name>
+		<Code>59</Code>
+		<Description>Резервы под обесценение финансовых вложений</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="70654df8-88d8-4bed-9825-d525d26dfba9">
+		<Name>РасчетыСПоставщикамиИПодрядчиками</Name>
+		<Code>60</Code>
+		<Description>Расчеты с поставщиками и подрядчиками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="96010ce0-6fb7-49fd-a5d4-d647ef12879c">
+		<Name>РасчетыСПокупателямиИЗаказчиками</Name>
+		<Code>62</Code>
+		<Description>Расчеты с покупателями и заказчиками</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="0095f283-39a3-4358-867b-424c91ed6b2b">
+		<Name>РезервыПоСомнительнымДолгам</Name>
+		<Code>63</Code>
+		<Description>Резервы по сомнительным долгам</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="9474d77a-4519-419a-ac43-6fceb0be6d35">
+		<Name>РасчетыПоКраткосрочнымКредитамИЗаймам</Name>
+		<Code>66</Code>
+		<Description>Расчеты по краткосрочным кредитам и займам</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="c0d6a41d-f7e8-4469-835b-11f50f2d49e1">
+		<Name>РасчетыПоДолгосрочнымКредитамИЗаймам</Name>
+		<Code>67</Code>
+		<Description>Расчеты по долгосрочным кредитам и займам</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="c275616f-823c-490b-b887-ffea5dac12e9">
+		<Name>РасчетыПоНалогамИСборам</Name>
+		<Code>68</Code>
+		<Description>Расчеты по налогам и сборам</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="89e263c4-6b46-4d63-9c11-0a2e4eb23f08">
+		<Name>РасчетыПоСоциальномуСтрахованиюИОбеспечению</Name>
+		<Code>69</Code>
+		<Description>Расчеты по социальному страхованию и обеспечению</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="06f74e25-a6d1-4eca-86a1-ab37c9c7f95e">
+		<Name>РасчетыСПерсоналомПоОплатеТруда</Name>
+		<Code>70</Code>
+		<Description>Расчеты с персоналом по оплате труда</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="8ca3506f-59d3-4c9f-ba66-bbdb69b0e805">
+		<Name>РасчетыСПодотчетнымиЛицами</Name>
+		<Code>71</Code>
+		<Description>Расчеты с подотчетными лицами</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="08f3fc7b-545b-4f52-9bb8-febd734d3ca8">
+		<Name>РасчетыСПерсоналомПоПрочимОперациям</Name>
+		<Code>73</Code>
+		<Description>Расчеты с персоналом по прочим операциям</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="54e111df-38bb-4a27-822f-a9a95b57c46d">
+		<Name>РасчетыСРазнымиДебиторамиИКредиторами</Name>
+		<Code>76</Code>
+		<Description>Расчеты с разными дебиторами и кредиторами</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="cb35572f-35ed-4248-a3f2-04b8309eae31">
+		<Name>ОтложенныеНалоговыеОбязательства</Name>
+		<Code>77</Code>
+		<Description>Отложенные налоговые обязательства</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="f9092552-f52e-4689-b6f1-e85a35cf5729">
+		<Name>ВнутрихозяйственныеРасчеты</Name>
+		<Code>79</Code>
+		<Description>Внутрихозяйственные расчеты</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="9ed1dbaf-3557-4ac0-b5a3-addfe66b5e78">
+		<Name>УставныйКапитал</Name>
+		<Code>80</Code>
+		<Description>Уставный капитал</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="66569aa9-6f03-4553-9bb0-ff7d8f17e4fb">
+		<Name>РезервныйКапитал</Name>
+		<Code>82</Code>
+		<Description>Резервный капитал</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="6c6eb342-d96a-4e98-98e3-ab5c21598936">
+		<Name>НераспределеннаяПрибыль</Name>
+		<Code>84</Code>
+		<Description>Нераспределенная прибыль</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="3a359afd-9bbe-4227-a24d-0eeee20d24a3">
+		<Name>ЦелевоеФинансирование</Name>
+		<Code>86</Code>
+		<Description>Целевое финансирование</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="b31ff498-29b2-4507-896e-44cc8251da12">
+		<Name>Продажи</Name>
+		<Code>90</Code>
+		<Description>Продажи</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="9ffb74bc-3199-4768-a15b-aec3e45b4e34">
+		<Name>ПрочиеРасходыИДоходы</Name>
+		<Code>91</Code>
+		<Description>Прочие расходы и доходы</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="d8856865-45c2-49b4-a8f2-92f32677051d">
+		<Name>РезервыПредстоящихРасходов</Name>
+		<Code>96</Code>
+		<Description>Резервы предстоящих расходов</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="13e570dc-af5b-404a-b66e-0dcb30802098">
+		<Name>РасходыБудущихПериодов</Name>
+		<Code>97</Code>
+		<Description>Расходы будущих периодов</Description>
+		<AccountType>Active</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="b921346d-404c-4b57-8340-e20688cb789f">
+		<Name>ДоходыБудущихПериодов</Name>
+		<Code>98</Code>
+		<Description>Доходы будущих периодов</Description>
+		<AccountType>Passive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+	<Item id="6e6a824a-6fd5-4879-89cc-4fdfc2973dbd">
+		<Name>ПрибылиИУбытки</Name>
+		<Code>99</Code>
+		<Description>Прибыли и убытки</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags/>
+	</Item>
+</PredefinedData>

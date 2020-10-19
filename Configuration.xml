@@ -193,13 +193,19 @@
 			<Subsystem>Бухгалтерия</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Предприятие</Subsystem>
+			<Subsystem>Производство</Subsystem>
 			<CommonPicture>ПодсистемаБухгалтерия</CommonPicture>
 			<CommonPicture>ПодсистемаРаботаСКонтрагентами</CommonPicture>
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
 			<CommonPicture>ПодсистемаНСИ</CommonPicture>
 			<CommonPicture>ПодсистемаУчетМатериалов</CommonPicture>
+			<CommonPicture>ПодистемаПроизводство</CommonPicture>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
+			<CommonModule>РаботаСРегистрами</CommonModule>
+			<CommonModule>РаботаСРегламентнымиЗаданиямиНаСервере</CommonModule>
+			<ScheduledJob>ОбновлениеИндексов</ScheduledJob>
+			<ScheduledJob>Тестовое</ScheduledJob>
 			<Constant>НазваниеОрганизации</Constant>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
@@ -211,13 +217,20 @@
 			<Document>ТребованиеНакладная</Document>
 			<Document>УстановкаЦенНаНоменклатуру</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
+			<Document>УстановитьГрафикРаботы</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
+			<Report>ОтчетОНерабочихДняхПредприятия</Report>
+			<Report>РейтингПродаж</Report>
+			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
+			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
+			<ChartOfAccounts>Основной</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
