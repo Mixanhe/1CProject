@@ -193,14 +193,18 @@
 			<Subsystem>Бухгалтерия</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Предприятие</Subsystem>
+			<Subsystem>РасчетыССотрудниками</Subsystem>
 			<CommonPicture>ПодсистемаБухгалтерия</CommonPicture>
 			<CommonPicture>ПодсистемаРаботаСКонтрагентами</CommonPicture>
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
 			<CommonPicture>ПодсистемаНСИ</CommonPicture>
 			<CommonPicture>ПодсистемаУчетМатериалов</CommonPicture>
+			<CommonPicture>ПодсистемаРасчетыССотрудниками</CommonPicture>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
+			<CommonModule>РаботаСРегистрами</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
+			<CommonForm>ПроизводственныйКалендарь</CommonForm>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
@@ -211,13 +215,30 @@
 			<Document>ТребованиеНакладная</Document>
 			<Document>УстановкаЦенНаНоменклатуру</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
+			<Document>УстановитьГрафикРаботы</Document>
+			<Document>НачислениеОклада</Document>
+			<Document>ПриемНаРаботу</Document>
+			<Document>ВводНачальныхДанныхОСотрудниках</Document>
+			<Document>НевыходСотрудника</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
+			<Report>ОтчетОНерабочихДняхПредприятия</Report>
+			<Report>ПроизводственныйКалендарь</Report>
+			<Report>НачисленияСотрудников</Report>
+			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
+			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
+			<InformationRegister>НачисленияСотрудников</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
+			<ChartOfAccounts>Основной</ChartOfAccounts>
+			<AccountingRegister>Расчетный</AccountingRegister>
+			<ChartOfCalculationTypes>НачисленияСотрудникам</ChartOfCalculationTypes>
+			<CalculationRegister>ЗаработнаяПлата</CalculationRegister>
+			<BusinessProcess>ПроцессПриемаНаРаботу</BusinessProcess>
+			<Task>ПриемНаРаботу</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

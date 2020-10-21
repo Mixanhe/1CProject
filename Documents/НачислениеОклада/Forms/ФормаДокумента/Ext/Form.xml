@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="СписокСотрудников" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СписокСотрудников</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокСотрудниковКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="СписокСотрудниковКоманднаяПанель" id="9">
+				<ChildItems>
+					<Button name="ЗаполнитьСписокСотрудников" id="23">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗаполнитьСписокСотрудников</CommandName>
+						<ExtendedTooltip name="ЗаполнитьСписокСотрудниковРасширеннаяПодсказка" id="24"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокСотрудниковРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="СписокСотрудниковСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>СписокСотрудников</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСотрудниковСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="СписокСотрудниковСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСотрудниковСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>СписокСотрудников</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСотрудниковСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СписокСотрудниковСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокСотрудниковУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>СписокСотрудников</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСотрудниковУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="СписокСотрудниковУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СписокСотрудниковНомерСтроки" id="20">
+					<DataPath>Объект.СписокСотрудников.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="СписокСотрудниковНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="СписокСотрудниковФИО" id="25">
+					<DataPath>Объект.СписокСотрудников.ФИО</DataPath>
+					<ContextMenu name="СписокСотрудниковФИОКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="СписокСотрудниковФИОРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="СписокСотрудниковОклад" id="28">
+					<DataPath>Объект.СписокСотрудников.Оклад</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковОкладКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="СписокСотрудниковОкладРасширеннаяПодсказка" id="30"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.НачислениеОклада</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьСписокСотрудников" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить список сотрудников</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить список сотрудников</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьСписокСотрудников</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -18,7 +18,9 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">ba3cbd55-0d73-4df8-bcd8-7bfa9d969ad1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ПриемНаРаботу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.ПроцессПриемаНаРаботу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботу</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

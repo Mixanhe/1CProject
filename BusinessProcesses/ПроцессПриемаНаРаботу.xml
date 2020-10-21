@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<BusinessProcess uuid="6f411445-fe9f-4180-b5d9-64c5636125e3">
+		<InternalInfo>
+			<xr:GeneratedType name="BusinessProcessObject.ПроцессПриемаНаРаботу" category="Object">
+				<xr:TypeId>fa4239d0-bdcb-4020-9c4e-a99db749783b</xr:TypeId>
+				<xr:ValueId>8c829bc5-9049-4e92-a94a-87f2a20d4b44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRef.ПроцессПриемаНаРаботу" category="Ref">
+				<xr:TypeId>36dfe951-9f54-4e87-92c2-4aec5ace5aa1</xr:TypeId>
+				<xr:ValueId>77c30392-1671-4501-9835-668f411129b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessSelection.ПроцессПриемаНаРаботу" category="Selection">
+				<xr:TypeId>2ad6fe92-52be-4ea5-a162-06abc0f09f38</xr:TypeId>
+				<xr:ValueId>356f8004-77c6-42dd-b603-bfd2363d22ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessList.ПроцессПриемаНаРаботу" category="List">
+				<xr:TypeId>402bfa40-10e3-4887-a9c1-cf122f46121a</xr:TypeId>
+				<xr:ValueId>281cba62-0e84-49ca-b8ad-7c446415d242</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessManager.ПроцессПриемаНаРаботу" category="Manager">
+				<xr:TypeId>53977f77-a414-494f-8f17-a49197359cc9</xr:TypeId>
+				<xr:ValueId>dac1290f-9deb-432c-abc4-d82b4a490b59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.ПроцессПриемаНаРаботу" category="RoutePointRef">
+				<xr:TypeId>cceb12fd-23c1-4779-8192-15d6ab199f2d</xr:TypeId>
+				<xr:ValueId>965176e9-17d6-4ecc-baf4-03ff4f55914f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПроцессПриемаНаРаботу</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процесс приема на работу</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<InputByString>
+				<xr:Field>BusinessProcess.ПроцессПриемаНаРаботу.StandardAttribute.Number</xr:Field>
+			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<CheckUnique>true</CheckUnique>
+			<Characteristics/>
+			<Autonumbering>true</Autonumbering>
+			<BasedOn/>
+			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+			<Task>Task.ПриемНаРаботу</Task>
+			<CreateTaskInPrivilegedMode>true</CreateTaskInPrivilegedMode>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects/>
+	</BusinessProcess>
+</MetaDataObject>

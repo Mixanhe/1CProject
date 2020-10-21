@@ -21,6 +21,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Цены</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.РасходыНаПоставку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Взаиморасчеты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Основной</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикРаботыПредприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановитьГрафикРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетОНерабочихДняхПредприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ПроизводственныйКалендарь</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПроизводственныйКалендарь</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.Расчетный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.НачисленияСотрудникам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ЗаработнаяПлата</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
