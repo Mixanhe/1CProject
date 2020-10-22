@@ -220,6 +220,8 @@
 			<Document>ПриемНаРаботу</Document>
 			<Document>ВводНачальныхДанныхОСотрудниках</Document>
 			<Document>НевыходСотрудника</Document>
+			<Document>РасчетПремии</Document>
+			<Document>ВыплатаЗаработнойЛлаты</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
@@ -233,6 +235,7 @@
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
+			<AccumulationRegister>ДолгиПоЗаработнойПлатеСотрудникам</AccumulationRegister>
 			<ChartOfAccounts>Основной</ChartOfAccounts>
 			<AccountingRegister>Расчетный</AccountingRegister>
 			<ChartOfCalculationTypes>НачисленияСотрудникам</ChartOfCalculationTypes>

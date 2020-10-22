@@ -5,7 +5,6 @@
 		<Subsystem>Subsystem.УчетМатериалов</Subsystem>
 		<Subsystem>Subsystem.Бухгалтерия</Subsystem>
 		<Subsystem>Subsystem.НСИ</Subsystem>
-		<Subsystem>Subsystem.Производство</Subsystem>
 		<Subsystem>Subsystem.Предприятие</Subsystem>
 	</SubsystemsOrder>
 </CommandInterface>
