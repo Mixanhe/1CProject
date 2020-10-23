@@ -220,8 +220,8 @@
 			<Document>ПриемНаРаботу</Document>
 			<Document>ВводНачальныхДанныхОСотрудниках</Document>
 			<Document>НевыходСотрудника</Document>
-			<Document>РасчетПремии</Document>
 			<Document>ВыплатаЗаработнойЛлаты</Document>
+			<Document>РасчетПремии</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>

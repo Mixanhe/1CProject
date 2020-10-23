@@ -29,7 +29,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПроизводственныйКалендарь</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.Расчетный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.НачисленияСотрудникам</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ЗаработнаяПлата</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

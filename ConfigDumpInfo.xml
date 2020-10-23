@@ -25,7 +25,7 @@
 		<Metadata name="BusinessProcess.ПроцессПриемаНаРаботу" id="6f411445-fe9f-4180-b5d9-64c5636125e3" configVersion="318030a01d44c84e910d1699e3f2e8ef00000000"/>
 		<Metadata name="BusinessProcess.ПроцессПриемаНаРаботу.Flowchart" id="6f411445-fe9f-4180-b5d9-64c5636125e3.7" configVersion="c12f5512e9a1b643ba2e79c31766cf9800000000"/>
 		<Metadata name="BusinessProcess.ПроцессПриемаНаРаботу.ObjectModule" id="6f411445-fe9f-4180-b5d9-64c5636125e3.6" configVersion="b57996a324192245b1b1913831cea9c400000000"/>
-		<Metadata name="CalculationRegister.ЗаработнаяПлата" id="34b96285-31f7-4e6f-b917-f9b838718290" configVersion="2df69b2710473048a0b49f8953ae470400000000">
+		<Metadata name="CalculationRegister.ЗаработнаяПлата" id="34b96285-31f7-4e6f-b917-f9b838718290" configVersion="5e920fcd64911f4d87e7f5bf43d7c38e00000000">
 			<Metadata name="CalculationRegister.ЗаработнаяПлата.Resource.Сумма" id="3b39541b-5d39-49cc-be0b-3d844cf6d531"/>
 			<Metadata name="CalculationRegister.ЗаработнаяПлата.Attribute.ДанныеДляРасчета" id="68a955aa-c413-40d5-9557-d46d72372cc2"/>
 			<Metadata name="CalculationRegister.ЗаработнаяПлата.Dimension.Сотрудник" id="bd509422-0ab2-466d-9b63-d92a921830c8"/>
@@ -93,7 +93,7 @@
 		<Metadata name="CommonPicture.ПодсистемаРасчетыССотрудниками.Picture" id="0e0d5348-2c00-4e02-a511-c0bd8f11aac1.0" configVersion="a52500992c311540a6e62c57f3b08c6f00000000"/>
 		<Metadata name="CommonPicture.ПодсистемаУчетМатериалов" id="b929021c-81d8-42a1-afda-cefa66f12546" configVersion="07c1cf70155281409e80cbb7bf363ba600000000"/>
 		<Metadata name="CommonPicture.ПодсистемаУчетМатериалов.Picture" id="b929021c-81d8-42a1-afda-cefa66f12546.0" configVersion="64af56361cafc44ea58ccc03cf2295a000000000"/>
-		<Metadata name="Configuration.ОптимальныеТехнологии" id="609f56c3-fe03-4117-b766-a54a87b2bf63" configVersion="3d068432322e2c4e875a263f00deddc900000000"/>
+		<Metadata name="Configuration.ОптимальныеТехнологии" id="609f56c3-fe03-4117-b766-a54a87b2bf63" configVersion="74bce20d61adcb48aef9af4f0493859100000000"/>
 		<Metadata name="Configuration.ОптимальныеТехнологии.CommandInterface" id="ef2f27af-f2f4-4122-92c1-b5cb4a6226e7.a" configVersion="7ee0a46e5a59f54d98a5dbbca12bb12b00000000"/>
 		<Metadata name="Constant.НазваниеОрганизации" id="81d4caa9-aae3-4c28-ac4d-f5529f1d9287" configVersion="a3d2cf7441829a47835518aa2cfff0ec00000000"/>
 		<Metadata name="Constant.НазваниеОрганизации.ValueManagerModule" id="81d4caa9-aae3-4c28-ac4d-f5529f1d9287.0" configVersion="cb4997b0a1b7174cb7349ada168d29e600000000"/>
@@ -110,7 +110,7 @@
 		<Metadata name="Document.ВводНачальныхДанныхОСотрудниках.Form.ФормаДокумента" id="6d9fb959-5e5d-47e7-8bae-4cf21c1d7926" configVersion="630ddcf0ee1eee4197814dd2cb334b0a00000000"/>
 		<Metadata name="Document.ВводНачальныхДанныхОСотрудниках.Form.ФормаДокумента.Form" id="6d9fb959-5e5d-47e7-8bae-4cf21c1d7926.0" configVersion="14bf3b2ef9b65044898e97695a1f07d500000000"/>
 		<Metadata name="Document.ВводНачальныхДанныхОСотрудниках.ObjectModule" id="070fc856-a58d-47f8-abb4-2d071681af41.0" configVersion="f6633ada3e8edd4886f5d244844303a000000000"/>
-		<Metadata name="Document.ВыплатаЗаработнойЛлаты" id="939a2991-bda9-45b9-abea-06e2f6edfc77" configVersion="af1b886ac9ee7f43b3c77a87bc84cb5200000000">
+		<Metadata name="Document.ВыплатаЗаработнойЛлаты" id="939a2991-bda9-45b9-abea-06e2f6edfc77" configVersion="72f138a002614c4fb327fe7d2ef3ead600000000">
 			<Metadata name="Document.ВыплатаЗаработнойЛлаты.TabularSection.СписокСотрудников" id="a33912a4-4b07-4b2b-8f69-f08e81ca9257"/>
 			<Metadata name="Document.ВыплатаЗаработнойЛлаты.TabularSection.СписокСотрудников.Attribute.Оклад" id="a6a8aa84-d483-4e96-aeef-eb25548fc97e"/>
 			<Metadata name="Document.ВыплатаЗаработнойЛлаты.TabularSection.СписокСотрудников.Attribute.ФИО" id="b957ccca-cf08-4bdf-a9a4-0eb448ef38ba"/>
@@ -120,7 +120,7 @@
 		<Metadata name="Document.ВыплатаЗаработнойЛлаты.Form.ФормаДокумента.Help" id="36916ead-2a64-426c-8000-35ec8bfedbaf.1" configVersion="4e3c7a91ad2afd4db3b64eebaf76a84f00000000"/>
 		<Metadata name="Document.ВыплатаЗаработнойЛлаты.Help" id="939a2991-bda9-45b9-abea-06e2f6edfc77.1" configVersion="436c0e3ac980e64585195b13281de30900000000"/>
 		<Metadata name="Document.ВыплатаЗаработнойЛлаты.ManagerModule" id="939a2991-bda9-45b9-abea-06e2f6edfc77.2" configVersion="3784b976e2eff544b4983bf80f0dff5200000000"/>
-		<Metadata name="Document.ВыплатаЗаработнойЛлаты.ObjectModule" id="939a2991-bda9-45b9-abea-06e2f6edfc77.0" configVersion="23c4dbc7d824ef449ca05758d370a9a100000000"/>
+		<Metadata name="Document.ВыплатаЗаработнойЛлаты.ObjectModule" id="939a2991-bda9-45b9-abea-06e2f6edfc77.0" configVersion="9eace7bc63ede14f92ff736b4d6adf5c00000000"/>
 		<Metadata name="Document.ДоговорНаПоставкуКомплектующих" id="b9788ec6-1c78-45df-a8a2-2ecbf8ed33d4" configVersion="81ac21b3d65cf34da761ea48a2deb2fa00000000">
 			<Metadata name="Document.ДоговорНаПоставкуКомплектующих.TabularSection.Товары.Attribute.Цена" id="082df784-bee1-424d-8d57-661880a9c50f"/>
 			<Metadata name="Document.ДоговорНаПоставкуКомплектующих.Attribute.Склад" id="16eeb6c5-1655-4f4f-9c8d-e8b8428f0128"/>
@@ -139,14 +139,14 @@
 		<Metadata name="Document.ДоговорНаПоставкуКомплектующих.ObjectModule" id="b9788ec6-1c78-45df-a8a2-2ecbf8ed33d4.0" configVersion="1a507db82dd5bf4fa49fbd13de14e17a00000000"/>
 		<Metadata name="Document.ДоговорНаПоставкуКомплектующих.Template.Печать" id="9d1619a7-932a-40b8-84e1-62a848d0ec3c" configVersion="bfc5301aa470764ab5a12765df1fc18f00000000"/>
 		<Metadata name="Document.ДоговорНаПоставкуКомплектующих.Template.Печать.Template" id="9d1619a7-932a-40b8-84e1-62a848d0ec3c.0" configVersion="ecf3f47ea373b246b9b52e96fcb8917300000000"/>
-		<Metadata name="Document.НачислениеОклада" id="1e1836b3-816c-4398-b912-b6e1e4d471ee" configVersion="7c01c247b626aa408ae18531fe737e6700000000">
+		<Metadata name="Document.НачислениеОклада" id="1e1836b3-816c-4398-b912-b6e1e4d471ee" configVersion="85f7fcce6ea48b4ba2cea5517c21aa7700000000">
 			<Metadata name="Document.НачислениеОклада.TabularSection.СписокСотрудников" id="8c82412a-a824-410d-be07-13745af36080"/>
 			<Metadata name="Document.НачислениеОклада.TabularSection.СписокСотрудников.Attribute.Оклад" id="b05a32fe-6f99-4c1d-8ecf-8979081d3630"/>
 			<Metadata name="Document.НачислениеОклада.TabularSection.СписокСотрудников.Attribute.ФИО" id="c9c30e6e-bd87-40d1-b395-ef19da61c3c4"/>
 		</Metadata>
 		<Metadata name="Document.НачислениеОклада.Form.ФормаДокумента" id="1f9d4414-eddf-4f9c-a14e-7f6405803c08" configVersion="3c90608c31bfb641a32a43c0af65261000000000"/>
 		<Metadata name="Document.НачислениеОклада.Form.ФормаДокумента.Form" id="1f9d4414-eddf-4f9c-a14e-7f6405803c08.0" configVersion="e0101d770a570340b8a4c1d407b4e28000000000"/>
-		<Metadata name="Document.НачислениеОклада.ObjectModule" id="1e1836b3-816c-4398-b912-b6e1e4d471ee.0" configVersion="1c0aebe2668934439f125d0bc807a8d900000000"/>
+		<Metadata name="Document.НачислениеОклада.ObjectModule" id="1e1836b3-816c-4398-b912-b6e1e4d471ee.0" configVersion="c0dc05149f7cbf4591e9eb4d61bfc04400000000"/>
 		<Metadata name="Document.НевыходСотрудника" id="0cdd2a12-72cf-42ad-850b-1481cae7bd20" configVersion="0276caf2bbf41f47ba41dfbdfffe8c9700000000">
 			<Metadata name="Document.НевыходСотрудника.Attribute.ДатаОкончания" id="5be514f9-cb06-4931-91de-4f0f59ef0750"/>
 			<Metadata name="Document.НевыходСотрудника.Attribute.ДатаНачала" id="f9ed6351-80bc-4bc6-99dd-12003cb67bc7"/>
@@ -165,7 +165,22 @@
 			<Metadata name="Document.ПриемНаРаботу.TabularSection.ПредыдущиеМестаРаботы.Attribute.НазваниеОрганизации" id="d9e87bdc-6319-4b2f-9748-669a6c93d338"/>
 		</Metadata>
 		<Metadata name="Document.ПриемНаРаботу.ObjectModule" id="5fb70b87-a246-4730-b947-d5b85db8b879.0" configVersion="75de34012355ea45903f4c9632a8350000000000"/>
-		<Metadata name="Document.РасчетПремии" id="7d8dfaf0-c47c-45d9-9bbb-3868f22147d4" configVersion="c207bc45ca3a4b4592edc5e9545bd8be00000000"/>
+		<Metadata name="Document.РасчетПремии" id="3a763aae-3f0c-4953-9036-b63c1adfcc98" configVersion="d66713205a3edb4999950e8155983dc400000000">
+			<Metadata name="Document.РасчетПремии.TabularSection.СписокСотрудников.Attribute.Служебный" id="267969e3-81be-4153-811f-d0c8c9e86c67"/>
+			<Metadata name="Document.РасчетПремии.TabularSection.СписокСотрудников" id="557fdf10-c593-4175-9d20-d796acfedc09"/>
+			<Metadata name="Document.РасчетПремии.TabularSection.СписокСотрудников.Attribute.Процент" id="6058503d-f7d2-4539-9d56-cd1bf4862faa"/>
+			<Metadata name="Document.РасчетПремии.Attribute.ВидРасчета" id="98bb9744-38c3-4cb5-a9b7-137ee0af7869"/>
+			<Metadata name="Document.РасчетПремии.TabularSection.СписокСотрудников.Attribute.БазаКонец" id="a2852740-1e19-42b7-8154-ebbaf575a2b9"/>
+			<Metadata name="Document.РасчетПремии.TabularSection.СписокСотрудников.Attribute.ВидРасчета" id="b18a4c5c-26ce-49d8-9824-6f120a1f763a"/>
+			<Metadata name="Document.РасчетПремии.TabularSection.СписокСотрудников.Attribute.БазаНачало" id="e04379d3-911b-44aa-9b1a-27dc298226e6"/>
+			<Metadata name="Document.РасчетПремии.TabularSection.СписокСотрудников.Attribute.ФИО" id="f368c98f-d79b-497e-926b-df131dea02f5"/>
+		</Metadata>
+		<Metadata name="Document.РасчетПремии.Form.ФормаДокумента" id="e2c9d217-742c-4c88-878e-4325c68eabb0" configVersion="f962d31bc76c874480e651107054534a00000000"/>
+		<Metadata name="Document.РасчетПремии.Form.ФормаДокумента.Form" id="e2c9d217-742c-4c88-878e-4325c68eabb0.0" configVersion="47f49f4a13cdb54797718b7292aa6ba400000000"/>
+		<Metadata name="Document.РасчетПремии.Form.ФормаДокумента.Help" id="e2c9d217-742c-4c88-878e-4325c68eabb0.1" configVersion="d47d81a0661de54ca2b51e90c573d4a600000000"/>
+		<Metadata name="Document.РасчетПремии.Help" id="3a763aae-3f0c-4953-9036-b63c1adfcc98.1" configVersion="3de3f9628023c3488fa01a4580bb32b400000000"/>
+		<Metadata name="Document.РасчетПремии.ManagerModule" id="3a763aae-3f0c-4953-9036-b63c1adfcc98.2" configVersion="52cf9ad3dc466d4ba9b6ae55b5cfb7ba00000000"/>
+		<Metadata name="Document.РасчетПремии.ObjectModule" id="3a763aae-3f0c-4953-9036-b63c1adfcc98.0" configVersion="38a17b217496e34c9ddb04074abf841000000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг" id="8732a5fa-2e94-4256-9e69-1eea1ad08216" configVersion="d586016e588e58449db338eb4f6497ec00000000">
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Отгрузил" id="167f882c-bbbf-460b-80ef-74c30f6f21ab"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Склад" id="744be715-53b1-4260-abe6-9b2cc465fc00"/>
@@ -228,7 +243,8 @@
 			<Metadata name="InformationRegister.ГрафикРаботыПредприятия.Attribute.ДатаВыходногоДня" id="bacbfd91-dd10-4f5b-bfe8-6ce31672455e"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ГрафикРаботыПредприятия.RecordSetModule" id="338f0252-a11f-49f0-b16a-62d0fc932eaf.1" configVersion="23907440411c9242acf39a002999a17c00000000"/>
-		<Metadata name="InformationRegister.НачисленияСотрудников" id="fe4ee827-99ed-48b5-8cf4-5b894d2e2973" configVersion="bb97a83e29c20f44bab5932841bcd1ca00000000">
+		<Metadata name="InformationRegister.НачисленияСотрудников" id="fe4ee827-99ed-48b5-8cf4-5b894d2e2973" configVersion="515e2233a702bc409edcec5b66211d2700000000">
+			<Metadata name="InformationRegister.НачисленияСотрудников.Resource.Сумма" id="077aed65-8a71-429d-948c-00999279e8ab"/>
 			<Metadata name="InformationRegister.НачисленияСотрудников.Dimension.Сотрудник" id="47be613c-0ddb-49f2-a82b-7436584df05a"/>
 			<Metadata name="InformationRegister.НачисленияСотрудников.Resource.Оклад" id="6b6765e7-6cea-4b11-87bc-becd25615981"/>
 			<Metadata name="InformationRegister.НачисленияСотрудников.Resource.Премия" id="aa740449-ab67-4978-b7bc-784c76a9e1e1"/>
@@ -256,11 +272,11 @@
 		<Metadata name="Report.РасходыНаПоставку" id="b58d2552-7f55-481e-ad4e-84df4244a3d3" configVersion="7a3aadf18c77fd41a2d8afc30c5714fe00000000"/>
 		<Metadata name="Report.РасходыНаПоставку.Template.ОсновнаяСхемаКомпоновкиДанных" id="28a5cfc8-b557-4db5-bc7f-1c9087467634" configVersion="9bc3b5c28ec4da45bd120a508d0448d800000000"/>
 		<Metadata name="Report.РасходыНаПоставку.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="28a5cfc8-b557-4db5-bc7f-1c9087467634.0" configVersion="ff8150c59c2426438c504c70254d299300000000"/>
-		<Metadata name="Subsystem.Бухгалтерия" id="c1dff62a-a810-41d6-8cc1-4c5745d6d597" configVersion="431a1e753317904ebd2dc32970a099ce00000000"/>
+		<Metadata name="Subsystem.Бухгалтерия" id="c1dff62a-a810-41d6-8cc1-4c5745d6d597" configVersion="f59bf50b21716449941d239b84a164f700000000"/>
 		<Metadata name="Subsystem.НСИ" id="fca18a3f-f192-4c69-91a5-22ac11d8ce75" configVersion="a72c4a6d11dd3b44b872b1832dab8a6600000000"/>
 		<Metadata name="Subsystem.Предприятие" id="3ec0201e-0af8-4685-8dc3-5250e4d98d4e" configVersion="6c26a736617ea34398e48f1d53eb7ceb00000000"/>
 		<Metadata name="Subsystem.РаботаСКонтрагентами" id="3754b832-a360-439c-9178-ded15091ecfe" configVersion="d42c3190dfb9bd4a83149f2414b9e18100000000"/>
-		<Metadata name="Subsystem.РасчетыССотрудниками" id="4435b601-ee4b-46fa-b089-9efb6be9b688" configVersion="2fd03097ebad0244b4c81a2263c9f9ae00000000"/>
+		<Metadata name="Subsystem.РасчетыССотрудниками" id="4435b601-ee4b-46fa-b089-9efb6be9b688" configVersion="0d0894822f063440a60dcc6c3505fc3500000000"/>
 		<Metadata name="Subsystem.УчетМатериалов" id="02bcb599-cc63-47e0-91c7-b8d85f4868a0" configVersion="77de5d970dd5764c904573facd555e4c00000000"/>
 		<Metadata name="Task.ПриемНаРаботу" id="c5197a0a-9296-4051-9f28-87707ba44d2b" configVersion="74a493d27bd5764bb82457e233499b1000000000">
 			<Metadata name="Task.ПриемНаРаботу.AddressingAttribute.РеквизитАдресации1" id="a2e2e9c8-b1d0-4cdb-801e-24d479145777"/>
