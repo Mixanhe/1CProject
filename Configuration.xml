@@ -228,6 +228,7 @@
 			<Report>ОтчетОНерабочихДняхПредприятия</Report>
 			<Report>ПроизводственныйКалендарь</Report>
 			<Report>НачисленияСотрудников</Report>
+			<Report>ДолгиПоЗаработнойПлате</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
