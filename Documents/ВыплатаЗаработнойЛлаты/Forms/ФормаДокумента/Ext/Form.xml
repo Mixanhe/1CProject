@@ -4,7 +4,28 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
+		<UsualGroup name="Группа2" id="41">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="42"/>
+		</UsualGroup>
+		<Button name="ВыдатьПолннуСуммуЗарплаты" id="35">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыплатитьПолнуюСуммуЗаработнойЛпаты</CommandName>
+			<ExtendedTooltip name="ВыдатьПолннуСуммуЗарплатыРасширеннаяПодсказка" id="36"/>
+		</Button>
+		<Button name="ВыплатитьПоловинуЗарплаты" id="37">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыплатитьПоловинуЗарплаты</CommandName>
+			<ExtendedTooltip name="ВыплатитьПоловинуЗарплатыРасширеннаяПодсказка" id="38"/>
+		</Button>
+		<Button name="ВыплатитьВсемТолькоОклад" id="39">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыплатитьВсемТолькоОклад</CommandName>
+			<ExtendedTooltip name="ВыплатитьВсемТолькоОкладРасширеннаяПодсказка" id="40"/>
+		</Button>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -77,7 +98,7 @@
 					<ExtendedTooltip name="СписокСотрудниковФИОРасширеннаяПодсказка" id="27"/>
 				</InputField>
 				<InputField name="СписокСотрудниковОклад" id="28">
-					<DataPath>Объект.СписокСотрудников.Оклад</DataPath>
+					<DataPath>Объект.СписокСотрудников.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СписокСотрудниковОкладКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="СписокСотрудниковОкладРасширеннаяПодсказка" id="30"/>
@@ -127,6 +148,49 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьДанные</Action>
+		</Command>
+		<Command name="ВыплатитьПолнуюСуммуЗаработнойЛпаты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить полную сумму заработной лпаты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить полную сумму заработной лпаты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыплатитьПолнуюСуммуЗаработнойЛпаты</Action>
+		</Command>
+		<Command name="ВыплатитьПоловинуЗарплаты" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить половину зарплаты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить половину зарплаты</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ВыплатитьВсемТолькоОклад" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить всем только оклад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить всем только оклад</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 	<CommandInterface>

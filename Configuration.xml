@@ -203,6 +203,7 @@
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РаботаСРегистрами</CommonModule>
+			<CommonModule>РаботаСДокументамиНаСервере</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
 			<CommonForm>ПроизводственныйКалендарь</CommonForm>
 			<Catalog>Сотрудники</Catalog>
@@ -210,6 +211,7 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Должности</Catalog>
+			<Document>ВводНачальныхДанныхОСотрудниках</Document>
 			<Document>ДоговорНаПоставкуКомплектующих</Document>
 			<Document>ТоварнаяНакладная</Document>
 			<Document>ТребованиеНакладная</Document>
@@ -221,7 +223,6 @@
 			<Document>НевыходСотрудника</Document>
 			<Document>ВыплатаЗаработнойЛлаты</Document>
 			<Document>ПриемНаРаботу</Document>
-			<Document>ВводНачальныхДанныхОСотрудниках</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>

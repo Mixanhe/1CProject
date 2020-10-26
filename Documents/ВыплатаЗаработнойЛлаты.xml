@@ -187,7 +187,7 @@
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
-			<Posting>Allow</Posting>
+			<Posting>Deny</Posting>
 			<RealTimePosting>Allow</RealTimePosting>
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
@@ -304,11 +304,11 @@
 					</Attribute>
 					<Attribute uuid="a6a8aa84-d483-4e96-aeef-eb25548fc97e">
 						<Properties>
-							<Name>Оклад</Name>
+							<Name>Сумма</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Оклад</v8:content>
+									<v8:content>Сумма</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
