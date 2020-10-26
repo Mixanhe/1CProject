@@ -217,11 +217,11 @@
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>УстановитьГрафикРаботы</Document>
 			<Document>НачислениеОклада</Document>
-			<Document>ПриемНаРаботу</Document>
-			<Document>ВводНачальныхДанныхОСотрудниках</Document>
+			<Document>РасчетПремии</Document>
 			<Document>НевыходСотрудника</Document>
 			<Document>ВыплатаЗаработнойЛлаты</Document>
-			<Document>РасчетПремии</Document>
+			<Document>ПриемНаРаботу</Document>
+			<Document>ВводНачальныхДанныхОСотрудниках</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
