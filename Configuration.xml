@@ -204,6 +204,7 @@
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РаботаСРегистрами</CommonModule>
 			<CommonModule>РаботаСДокументамиНаСервере</CommonModule>
+			<CommonModule>ОповещениеОбОшибках</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
 			<CommonForm>ПроизводственныйКалендарь</CommonForm>
 			<Catalog>Сотрудники</Catalog>
