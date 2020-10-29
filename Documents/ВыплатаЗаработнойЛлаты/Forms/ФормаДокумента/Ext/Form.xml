@@ -8,9 +8,6 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="Группа2" id="41">
-			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="42"/>
-		</UsualGroup>
 		<Button name="ВыдатьПолннуСуммуЗарплаты" id="35">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ВыплатитьПолнуюСуммуЗаработнойЛпаты</CommandName>
@@ -26,18 +23,52 @@
 			<CommandName>Form.Command.ВыплатитьВсемТолькоОклад</CommandName>
 			<ExtendedTooltip name="ВыплатитьВсемТолькоОкладРасширеннаяПодсказка" id="40"/>
 		</Button>
-		<InputField name="Номер" id="1">
-			<DataPath>Объект.Number</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		<CheckBoxField name="ВыплатитьВсемФиксированнуюСумму" id="41">
+			<DataPath>ВыплатитьВсемФиксированнуюСумму</DataPath>
+			<WarningOnEdit>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остальные выплаты станут недоступны</v8:content>
+				</v8:item>
+			</WarningOnEdit>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВыплатитьВсемФиксированнуюСуммуКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="ВыплатитьВсемФиксированнуюСуммуРасширеннаяПодсказка" id="43"/>
+			<Events>
+				<Event name="OnChange">ВыплатитьВсемФиксированнуюСуммуПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<InputField name="ФиксированнаяСумма" id="44">
+			<DataPath>ФиксированнаяСумма</DataPath>
+			<Visible>false</Visible>
+			<ContextMenu name="ФиксированнаяСуммаКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="ФиксированнаяСуммаРасширеннаяПодсказка" id="46"/>
 		</InputField>
+		<Button name="ПроизвестиВыплату" id="47">
+			<Type>UsualButton</Type>
+			<Visible>false</Visible>
+			<CommandName>Form.Command.ПроизвестиВыплату</CommandName>
+			<ExtendedTooltip name="ПроизвестиВыплатуРасширеннаяПодсказка" id="48"/>
+		</Button>
 		<InputField name="Дата" id="4">
 			<DataPath>Объект.Date</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<Button name="ЗаполнитьСписокСотрудников" id="23">
+			<Type>UsualButton</Type>
+			<Width>15</Width>
+			<CommandName>Form.Command.ЗаполнитьСписокСотрудников</CommandName>
+			<Font ref="style:LargeTextFont" kind="StyleItem"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ЗаполнитьСписокСотрудниковРасширеннаяПодсказка" id="24"/>
+		</Button>
 		<Table name="СписокСотрудников" id="7">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -52,11 +83,6 @@
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ОбновитьДанные</CommandName>
 						<ExtendedTooltip name="СписокСотрудниковОбновитьДанныеРасширеннаяПодсказка" id="32"/>
-					</Button>
-					<Button name="ЗаполнитьСписокСотрудников" id="23">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ЗаполнитьСписокСотрудников</CommandName>
-						<ExtendedTooltip name="ЗаполнитьСписокСотрудниковРасширеннаяПодсказка" id="24"/>
 					</Button>
 				</ChildItems>
 			</AutoCommandBar>
@@ -116,6 +142,33 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+		</Attribute>
+		<Attribute name="ВыплатитьВсемФиксированнуюСумму" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить всем фиксированную сумму</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ФиксированнаяСумма" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фиксированная сумма</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -192,6 +245,38 @@
 					<v8:content>Выплатить всем только оклад</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ВыплатитьВсемТолькоОклад</Action>
+		</Command>
+		<Command name="ВыплатитьВсемФиксированнуюСумму" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить всем фиксированную сумму</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплатить всем фиксированную сумму</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыплатитьВсемФиксированнуюСумму</Action>
+			<AssociatedTableElementId xsi:type="xs:string">СписокСотрудников</AssociatedTableElementId>
+		</Command>
+		<Command name="ПроизвестиВыплату" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Произвести выплату</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Произвести выплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроизвестиВыплату</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>

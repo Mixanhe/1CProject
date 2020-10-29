@@ -205,6 +205,8 @@
 			<CommonModule>РаботаСРегистрами</CommonModule>
 			<CommonModule>РаботаСДокументамиНаСервере</CommonModule>
 			<CommonModule>ОповещениеОбОшибках</CommonModule>
+			<CommonModule>РегламентныеОперации</CommonModule>
+			<ScheduledJob>ОбновлениеИндексов</ScheduledJob>
 			<Constant>НазваниеОрганизации</Constant>
 			<CommonForm>ПроизводственныйКалендарь</CommonForm>
 			<Catalog>Сотрудники</Catalog>
