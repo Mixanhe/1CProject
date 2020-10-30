@@ -206,6 +206,7 @@
 			<CommonModule>РаботаСДокументамиНаСервере</CommonModule>
 			<CommonModule>ОповещениеОбОшибках</CommonModule>
 			<CommonModule>РегламентныеОперации</CommonModule>
+			<CommonModule>ОповещениеОбОшибкахНаСервере</CommonModule>
 			<ScheduledJob>ОбновлениеИндексов</ScheduledJob>
 			<Constant>НазваниеОрганизации</Constant>
 			<CommonForm>ПроизводственныйКалендарь</CommonForm>
@@ -233,6 +234,7 @@
 			<Report>ПроизводственныйКалендарь</Report>
 			<Report>НачисленияСотрудников</Report>
 			<Report>ДолгиПоЗаработнойПлате</Report>
+			<Report>ОтработанноеВремя</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
@@ -241,6 +243,8 @@
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>ДолгиПоЗаработнойПлатеСотрудникам</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>СебестоимостьНоменклатуры</AccumulationRegister>
 			<ChartOfAccounts>Основной</ChartOfAccounts>
 			<AccountingRegister>Расчетный</AccountingRegister>
 			<ChartOfCalculationTypes>НачисленияСотрудникам</ChartOfCalculationTypes>

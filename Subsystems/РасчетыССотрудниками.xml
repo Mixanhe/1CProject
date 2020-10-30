@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасчетПремии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ЗаработнаяПлата</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ДолгиПоЗаработнойПлате</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтработанноеВремя</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
