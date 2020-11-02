@@ -235,6 +235,7 @@
 			<Report>НачисленияСотрудников</Report>
 			<Report>ДолгиПоЗаработнойПлате</Report>
 			<Report>ОтработанноеВремя</Report>
+			<Report>ВаловаяПрибыль</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
