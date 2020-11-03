@@ -194,12 +194,14 @@
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Предприятие</Subsystem>
 			<Subsystem>РасчетыССотрудниками</Subsystem>
+			<Subsystem>ПириделкиИРазработки</Subsystem>
 			<CommonPicture>ПодсистемаБухгалтерия</CommonPicture>
 			<CommonPicture>ПодсистемаРаботаСКонтрагентами</CommonPicture>
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
 			<CommonPicture>ПодсистемаНСИ</CommonPicture>
 			<CommonPicture>ПодсистемаУчетМатериалов</CommonPicture>
 			<CommonPicture>ПодсистемаРасчетыССотрудниками</CommonPicture>
+			<CommonPicture>ПодсистемаПириделки</CommonPicture>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РаботаСРегистрами</CommonModule>
@@ -225,8 +227,9 @@
 			<Document>НачислениеОклада</Document>
 			<Document>РасчетПремии</Document>
 			<Document>НевыходСотрудника</Document>
-			<Document>ВыплатаЗаработнойЛлаты</Document>
+			<Document>ВыплатаЗаработнойПлаты</Document>
 			<Document>ПриемНаРаботу</Document>
+			<Document>ПеределанныйГрафик</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
@@ -240,6 +243,7 @@
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
 			<InformationRegister>НачисленияСотрудников</InformationRegister>
+			<InformationRegister>ПеределанныйГрафикРаботыПредприятия</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
