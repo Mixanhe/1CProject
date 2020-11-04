@@ -195,6 +195,7 @@
 			<Subsystem>Предприятие</Subsystem>
 			<Subsystem>РасчетыССотрудниками</Subsystem>
 			<Subsystem>ПириделкиИРазработки</Subsystem>
+			<Subsystem>Производство</Subsystem>
 			<CommonPicture>ПодсистемаБухгалтерия</CommonPicture>
 			<CommonPicture>ПодсистемаРаботаСКонтрагентами</CommonPicture>
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
@@ -202,6 +203,7 @@
 			<CommonPicture>ПодсистемаУчетМатериалов</CommonPicture>
 			<CommonPicture>ПодсистемаРасчетыССотрудниками</CommonPicture>
 			<CommonPicture>ПодсистемаПириделки</CommonPicture>
+			<CommonPicture>ПодсистемаПроизводство</CommonPicture>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РаботаСРегистрами</CommonModule>
@@ -230,6 +232,8 @@
 			<Document>ВыплатаЗаработнойПлаты</Document>
 			<Document>ПриемНаРаботу</Document>
 			<Document>ПеределанныйГрафик</Document>
+			<Document>ПроизводствоЗаСмену</Document>
+			<Document>УстановкаРабочейСмены</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
@@ -239,6 +243,7 @@
 			<Report>ДолгиПоЗаработнойПлате</Report>
 			<Report>ОтработанноеВремя</Report>
 			<Report>ВаловаяПрибыль</Report>
+			<Report>ЧистаяПрибыль</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
@@ -250,6 +255,7 @@
 			<AccumulationRegister>ДолгиПоЗаработнойПлатеСотрудникам</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>СебестоимостьНоменклатуры</AccumulationRegister>
+			<ChartOfCharacteristicTypes>ХарактеристикиПроцессоров</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Основной</ChartOfAccounts>
 			<AccountingRegister>Расчетный</AccountingRegister>
 			<ChartOfCalculationTypes>НачисленияСотрудникам</ChartOfCalculationTypes>

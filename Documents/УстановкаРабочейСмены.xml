@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="969640db-ed0c-456e-9483-cf8720213bfe">
+	<Document uuid="02bc77bc-d556-4691-8c72-3dd2032c0c0c">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ТребованиеНакладная" category="Object">
-				<xr:TypeId>0770df39-141e-44ee-b376-76e8a25a8c23</xr:TypeId>
-				<xr:ValueId>1c7fe586-15c0-4c71-b0a4-4decb4c9fe64</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.УстановкаРабочейСмены" category="Object">
+				<xr:TypeId>a002f39b-902e-4cdd-8e46-f6c8bfcdffcd</xr:TypeId>
+				<xr:ValueId>6495c7f3-d768-422a-9657-707c8f779ebd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ТребованиеНакладная" category="Ref">
-				<xr:TypeId>227cdfce-2d5d-4ac2-85c9-551d0cee5ae1</xr:TypeId>
-				<xr:ValueId>e0b950b1-6181-4b96-9070-0d01e1d7ad1a</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.УстановкаРабочейСмены" category="Ref">
+				<xr:TypeId>3297ccf1-303e-4669-a8e1-8d92f55a4808</xr:TypeId>
+				<xr:ValueId>87c6f196-9885-485a-b4bd-55d815b9e8ba</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ТребованиеНакладная" category="Selection">
-				<xr:TypeId>e2eadf92-903e-408e-aef2-30d359f2935c</xr:TypeId>
-				<xr:ValueId>07cc8c88-eda5-431a-b38f-bf551da5df8e</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.УстановкаРабочейСмены" category="Selection">
+				<xr:TypeId>5c072c4c-8e04-4b09-8fb6-01b2735f9343</xr:TypeId>
+				<xr:ValueId>f5b945a9-334b-4b6e-b968-5a4a3730b46e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ТребованиеНакладная" category="List">
-				<xr:TypeId>772f5258-95ad-47de-8ce3-8624be4b1dc7</xr:TypeId>
-				<xr:ValueId>00909be8-234f-450e-887e-09f469d1716f</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.УстановкаРабочейСмены" category="List">
+				<xr:TypeId>7c75f68d-e752-47ef-ada7-9d44c0077093</xr:TypeId>
+				<xr:ValueId>8f9881eb-1d96-4259-ba19-f70a5862cbfd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ТребованиеНакладная" category="Manager">
-				<xr:TypeId>61aff1eb-30d2-4373-b9b1-d49b007b3206</xr:TypeId>
-				<xr:ValueId>a18d8a30-7e84-41c2-ade6-9bc94b1dca3a</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.УстановкаРабочейСмены" category="Manager">
+				<xr:TypeId>8e4c3084-3bb3-4c03-aa6d-15803aa09db6</xr:TypeId>
+				<xr:ValueId>a90cec41-ff3e-4edb-8ad3-f545ef98f1f4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТребованиеНакладная</Name>
+			<Name>УстановкаРабочейСмены</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Требование накладная</v8:content>
+					<v8:content>Установка рабочей смены</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,17 +41,15 @@
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<Characteristics/>
-			<BasedOn>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ТоварнаяНакладная</xr:Item>
-			</BasedOn>
+			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ТребованиеНакладная.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.УстановкаРабочейСмены.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.УстановкаРабочейСмены.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -62,9 +60,7 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
-			</RegisterRecords>
+			<RegisterRecords/>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -74,7 +70,12 @@
 			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
-			<ExtendedListPresentation/>
+			<ExtendedListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рабочие смены</v8:content>
+				</v8:item>
+			</ExtendedListPresentation>
 			<Explanation/>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
@@ -82,13 +83,13 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="74728ea3-cafb-4f7b-816b-482db581cc09">
+			<Attribute uuid="a5ecbe34-581c-4f52-9d45-ceae35794e17">
 				<Properties>
-					<Name>Отправил</Name>
+					<Name>Установил</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отправил</v8:content>
+							<v8:content>Установил</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -121,100 +122,23 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="dcb2fbc7-a52b-421b-ba7a-9aa6f7a65141">
+			<Attribute uuid="4b8fc6e5-5746-4d93-b9e8-e0a1d82fc9bc">
 				<Properties>
-					<Name>ПодразделениеПолучателя</Name>
+					<Name>НомерСмены</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Подразделение получателя</v8:content>
+							<v8:content>Номер смены</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="ceefe538-8be1-4279-9ce5-6b98237fbd3e">
-				<Properties>
-					<Name>ТекстТребования</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Текст требования</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>true</MultiLine>
-					<ExtendedEdit>true</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="cd388d17-2595-4239-9a69-7e3ba3e08a4d">
-				<Properties>
-					<Name>СкладОтправитель</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Склад отправитель</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -242,62 +166,24 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a3940c64-731c-4647-9995-e92019c0f3fe">
-				<Properties>
-					<Name>СкладПолучатель</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Склад получатель</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<TabularSection uuid="883cd1b7-6a16-4d41-9295-7f5f5f1bdef2">
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="c244895d-c6d2-4136-a221-b8d15ab02a5a">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ТребованиеНакладная.Номенклатура" category="TabularSection">
-						<xr:TypeId>2934918f-b415-42e2-8970-8495c16d2ba0</xr:TypeId>
-						<xr:ValueId>6f265cf8-8080-4edf-a25b-67b7c4207429</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.УстановкаРабочейСмены.СотрудникиСмены" category="TabularSection">
+						<xr:TypeId>093a3bb5-e483-46bf-b751-b4b603028ef1</xr:TypeId>
+						<xr:ValueId>6a91ae69-ec2c-470b-976a-e0953c7275d0</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ТребованиеНакладная.Номенклатура" category="TabularSectionRow">
-						<xr:TypeId>153f79e2-4e44-4be5-9f4f-247e3fca3185</xr:TypeId>
-						<xr:ValueId>5f61cd5f-5532-42bc-aa02-e841138a206f</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.УстановкаРабочейСмены.СотрудникиСмены" category="TabularSectionRow">
+						<xr:TypeId>24ef0ac7-624a-4d07-820c-3c9c86718ccd</xr:TypeId>
+						<xr:ValueId>c20204e2-7a1b-4e1b-aee5-a87b8f74d30e</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>СотрудникиСмены</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>Сотрудники смены</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -305,18 +191,18 @@
 					<FillChecking>DontCheck</FillChecking>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="b4051c15-d767-4430-8bfd-41d9b793c860">
+					<Attribute uuid="5754e6e3-f929-45b1-ab92-6f0f98455030">
 						<Properties>
-							<Name>Наименование</Name>
+							<Name>ФИО</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Наименование</v8:content>
+									<v8:content>ФИО</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -342,23 +228,18 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="7ed853d4-0d2f-4c7a-92d6-49bf2d2f4729">
+					<Attribute uuid="a259953e-11c4-4389-9636-9c94bf78f303">
 						<Properties>
-							<Name>Количество</Name>
+							<Name>Должность</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Количество</v8:content>
+									<v8:content>Должность</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>3</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:Type>cfg:CatalogRef.Должности</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
