@@ -6,4 +6,10 @@
 		<Description>Основной </Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="4e256c5d-4c3d-4c9e-9b5f-9f583bf6f077">
+		<Name>ОТК</Name>
+		<Code>000000006</Code>
+		<Description>Отдел технического контроля</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

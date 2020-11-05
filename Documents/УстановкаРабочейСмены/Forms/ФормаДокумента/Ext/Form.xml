@@ -24,7 +24,7 @@
 			<ExtendedTooltip name="УстановилРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="НомерСмены" id="10">
-			<DataPath>Объект.НомерСмены</DataPath>
+			<DataPath>1/0:4b8fc6e5-5746-4d93-b9e8-e0a1d82fc9bc</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="НомерСменыКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="НомерСменыРасширеннаяПодсказка" id="12"/>
@@ -89,6 +89,7 @@
 				</InputField>
 				<InputField name="СотрудникиСменыДолжность" id="32">
 					<DataPath>Объект.СотрудникиСмены.Должность</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СотрудникиСменыДолжностьКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="СотрудникиСменыДолжностьРасширеннаяПодсказка" id="34"/>

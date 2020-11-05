@@ -196,6 +196,7 @@
 			<Subsystem>РасчетыССотрудниками</Subsystem>
 			<Subsystem>ПириделкиИРазработки</Subsystem>
 			<Subsystem>Производство</Subsystem>
+			<Subsystem>ОтделИнформационныхТехнологий</Subsystem>
 			<CommonPicture>ПодсистемаБухгалтерия</CommonPicture>
 			<CommonPicture>ПодсистемаРаботаСКонтрагентами</CommonPicture>
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
@@ -204,6 +205,7 @@
 			<CommonPicture>ПодсистемаРасчетыССотрудниками</CommonPicture>
 			<CommonPicture>ПодсистемаПириделки</CommonPicture>
 			<CommonPicture>ПодсистемаПроизводство</CommonPicture>
+			<CommonPicture>ПодсистемаОтделИнформационныхТехнологий</CommonPicture>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РаботаСРегистрами</CommonModule>
@@ -234,6 +236,7 @@
 			<Document>ПеределанныйГрафик</Document>
 			<Document>ПроизводствоЗаСмену</Document>
 			<Document>УстановкаРабочейСмены</Document>
+			<Document>ПрограммированиеИНастройкаПроцессоров</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
@@ -244,11 +247,13 @@
 			<Report>ОтработанноеВремя</Report>
 			<Report>ВаловаяПрибыль</Report>
 			<Report>ЧистаяПрибыль</Report>
+			<Report>ОтчетПоПроизводствуЗаСмену</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
 			<InformationRegister>НачисленияСотрудников</InformationRegister>
 			<InformationRegister>ПеределанныйГрафикРаботыПредприятия</InformationRegister>
+			<InformationRegister>ОтработанныеСмены</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>

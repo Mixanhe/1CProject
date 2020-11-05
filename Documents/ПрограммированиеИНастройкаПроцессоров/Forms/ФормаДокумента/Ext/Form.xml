@@ -18,25 +18,15 @@
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="НачальникСмены" id="7">
-			<DataPath>Объект.НачальникСмены</DataPath>
+			<DataPath>Объект.Ответсвтенный</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="НачальникСменыКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="НачальникСменыРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<InputField name="Цех" id="10">
-			<DataPath>Объект.Цех</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ЦехКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ЦехРасширеннаяПодсказка" id="12"/>
-			<Events>
-				<Event name="OnChange">ЦехПриИзменении</Event>
-				<Event name="TextEditEnd">ЦехОкончаниеВводаТекста</Event>
-			</Events>
-		</InputField>
-		<InputField name="НомерСмены" id="89">
-			<DataPath>Объект.Смена</DataPath>
-			<ContextMenu name="НомерСменыКонтекстноеМеню" id="90"/>
-			<ExtendedTooltip name="НомерСменыРасширеннаяПодсказка" id="91"/>
+		<InputField name="Отдел" id="89">
+			<DataPath>Объект.Отдел</DataPath>
+			<ContextMenu name="ОтделКонтекстноеМеню" id="90"/>
+			<ExtendedTooltip name="ОтделРасширеннаяПодсказка" id="91"/>
 		</InputField>
 		<Pages name="Страницы" id="13">
 			<Title>
@@ -188,17 +178,17 @@
 					</Title>
 					<ExtendedTooltip name="ГруппаСотрудникиСменыРасширеннаяПодсказка" id="64"/>
 					<ChildItems>
-						<Button name="ЗаполнитьСмену" id="87">
+						<Button name="Подбор" id="87">
 							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ЗаполнитьСмену</CommandName>
-							<ExtendedTooltip name="ЗаполнитьСменуРасширеннаяПодсказка" id="88"/>
+							<CommandName>Form.Command.Подбор</CommandName>
+							<ExtendedTooltip name="ПодборРасширеннаяПодсказка" id="88"/>
 						</Button>
 						<Table name="СотрудникиСмены" id="65">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.СотрудникиСмены</DataPath>
+							<DataPath>Объект.ITСпециаласты</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="СотрудникиСменыКонтекстноеМеню" id="66"/>
 							<AutoCommandBar name="СотрудникиСменыКоманднаяПанель" id="67"/>
@@ -227,21 +217,24 @@
 								<ContextMenu name="СотрудникиСменыУправлениеПоискомКонтекстноеМеню" id="76"/>
 								<ExtendedTooltip name="СотрудникиСменыУправлениеПоискомРасширеннаяПодсказка" id="77"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="ChoiceProcessing">СотрудникиСменыОбработкаВыбора</Event>
+							</Events>
 							<ChildItems>
 								<LabelField name="СотрудникиСменыНомерСтроки" id="78">
-									<DataPath>Объект.СотрудникиСмены.LineNumber</DataPath>
+									<DataPath>Объект.ITСпециаласты.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СотрудникиСменыНомерСтрокиКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="СотрудникиСменыНомерСтрокиРасширеннаяПодсказка" id="80"/>
 								</LabelField>
 								<InputField name="СотрудникиСменыФИО" id="81">
-									<DataPath>Объект.СотрудникиСмены.ФИО</DataPath>
+									<DataPath>Объект.ITСпециаласты.ФИО</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СотрудникиСменыФИОКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="СотрудникиСменыФИОРасширеннаяПодсказка" id="83"/>
 								</InputField>
 								<InputField name="СотрудникиСменыДолжность" id="84">
-									<DataPath>Объект.СотрудникиСмены.Должность</DataPath>
+									<DataPath>Объект.ITСпециаласты.Должность</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СотрудникиСменыДолжностьКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="СотрудникиСменыДолжностьРасширеннаяПодсказка" id="86"/>
@@ -256,7 +249,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DocumentObject.ПроизводствоЗаСмену</v8:Type>
+				<v8:Type>cfg:DocumentObject.ПрограммированиеИНастройкаПроцессоров</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
@@ -266,20 +259,20 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ЗаполнитьСмену" id="1">
+		<Command name="Подбор" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить смену</v8:content>
+					<v8:content>Подбор</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить смену</v8:content>
+					<v8:content>Подбор</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ЗаполнитьСмену</Action>
+			<Action>Подбор</Action>
 		</Command>
 	</Commands>
 </Form>
