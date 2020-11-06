@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="НачальникСмены" id="7">
+			<DataPath>Объект.Ответсвтенный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НачальникСменыКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="НачальникСменыРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Отдел" id="89">
+			<DataPath>Объект.Отдел</DataPath>
+			<ContextMenu name="ОтделКонтекстноеМеню" id="90"/>
+			<ExtendedTooltip name="ОтделРасширеннаяПодсказка" id="91"/>
+		</InputField>
+		<Pages name="Страницы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<Page name="ГруппаРеализованнаяПродукция" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товары, готовые к отгрузке</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаРеализованнаяПродукцияРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<Table name="РеализованнаяПродукция" id="17">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.РеализованнаяПродукция</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Товары, готовые к отгрузке</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РеализованнаяПродукцияКонтекстноеМеню" id="18"/>
+							<AutoCommandBar name="РеализованнаяПродукцияКоманднаяПанель" id="19"/>
+							<ExtendedTooltip name="РеализованнаяПродукцияРасширеннаяПодсказка" id="20"/>
+							<SearchStringAddition name="РеализованнаяПродукцияСтрокаПоиска" id="21">
+								<AdditionSource>
+									<Item>РеализованнаяПродукция</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеализованнаяПродукцияСтрокаПоискаКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="РеализованнаяПродукцияСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РеализованнаяПродукцияСостояниеПросмотра" id="24">
+								<AdditionSource>
+									<Item>РеализованнаяПродукция</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РеализованнаяПродукцияСостояниеПросмотраКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="РеализованнаяПродукцияСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РеализованнаяПродукцияУправлениеПоиском" id="27">
+								<AdditionSource>
+									<Item>РеализованнаяПродукция</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РеализованнаяПродукцияУправлениеПоискомКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="РеализованнаяПродукцияУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РеализованнаяПродукцияНомерСтроки" id="30">
+									<DataPath>Объект.РеализованнаяПродукция.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеализованнаяПродукцияНомерСтрокиКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="РеализованнаяПродукцияНомерСтрокиРасширеннаяПодсказка" id="32"/>
+								</LabelField>
+								<InputField name="РеализованнаяПродукцияНоменклатура" id="33">
+									<DataPath>Объект.РеализованнаяПродукция.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеализованнаяПродукцияНоменклатураКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="РеализованнаяПродукцияНоменклатураРасширеннаяПодсказка" id="35"/>
+								</InputField>
+								<InputField name="РеализованнаяПродукцияКоличество" id="36">
+									<DataPath>Объект.РеализованнаяПродукция.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РеализованнаяПродукцияКоличествоКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="РеализованнаяПродукцияКоличествоРасширеннаяПодсказка" id="38"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ПроверяемаяНоменклатура" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверяемая Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверяемая номенклатура</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПроверяемаяНоменклатураРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<Table name="ЗатраченныеМатериалы" id="41">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ЗатраченныеМатериалы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЗатраченныеМатериалыКонтекстноеМеню" id="42"/>
+							<AutoCommandBar name="ЗатраченныеМатериалыКоманднаяПанель" id="43"/>
+							<ExtendedTooltip name="ЗатраченныеМатериалыРасширеннаяПодсказка" id="44"/>
+							<SearchStringAddition name="ЗатраченныеМатериалыСтрокаПоиска" id="45">
+								<AdditionSource>
+									<Item>ЗатраченныеМатериалы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗатраченныеМатериалыСтрокаПоискаКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="ЗатраченныеМатериалыСтрокаПоискаРасширеннаяПодсказка" id="47"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗатраченныеМатериалыСостояниеПросмотра" id="48">
+								<AdditionSource>
+									<Item>ЗатраченныеМатериалы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗатраченныеМатериалыСостояниеПросмотраКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="ЗатраченныеМатериалыСостояниеПросмотраРасширеннаяПодсказка" id="50"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗатраченныеМатериалыУправлениеПоиском" id="51">
+								<AdditionSource>
+									<Item>ЗатраченныеМатериалы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗатраченныеМатериалыУправлениеПоискомКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="ЗатраченныеМатериалыУправлениеПоискомРасширеннаяПодсказка" id="53"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ЗатраченныеМатериалыНомерСтроки" id="54">
+									<DataPath>Объект.ЗатраченныеМатериалы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗатраченныеМатериалыНомерСтрокиКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ЗатраченныеМатериалыНомерСтрокиРасширеннаяПодсказка" id="56"/>
+								</LabelField>
+								<InputField name="ЗатраченныеМатериалыНоменклатура" id="57">
+									<DataPath>Объект.ЗатраченныеМатериалы.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗатраченныеМатериалыНоменклатураКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ЗатраченныеМатериалыНоменклатураРасширеннаяПодсказка" id="59"/>
+								</InputField>
+								<InputField name="ЗатраченныеМатериалыКоличество" id="60">
+									<DataPath>Объект.ЗатраченныеМатериалы.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗатраченныеМатериалыКоличествоКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="ЗатраченныеМатериалыКоличествоРасширеннаяПодсказка" id="62"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="ТоварыНеПрошедшиеЭкспертизу" id="92">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТоварыНеПрошедшиеЭкспертизу</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТоварыНеПрошедшиеЭкспертизуКонтекстноеМеню" id="93"/>
+							<AutoCommandBar name="ТоварыНеПрошедшиеЭкспертизуКоманднаяПанель" id="94"/>
+							<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизуРасширеннаяПодсказка" id="95"/>
+							<SearchStringAddition name="ТоварыНеПрошедшиеЭкспертизуСтрокаПоиска" id="96">
+								<AdditionSource>
+									<Item>ТоварыНеПрошедшиеЭкспертизу</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыНеПрошедшиеЭкспертизуСтрокаПоискаКонтекстноеМеню" id="97"/>
+								<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизуСтрокаПоискаРасширеннаяПодсказка" id="98"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТоварыНеПрошедшиеЭкспертизуСостояниеПросмотра" id="99">
+								<AdditionSource>
+									<Item>ТоварыНеПрошедшиеЭкспертизу</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыНеПрошедшиеЭкспертизуСостояниеПросмотраКонтекстноеМеню" id="100"/>
+								<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизуСостояниеПросмотраРасширеннаяПодсказка" id="101"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТоварыНеПрошедшиеЭкспертизуУправлениеПоиском" id="102">
+								<AdditionSource>
+									<Item>ТоварыНеПрошедшиеЭкспертизу</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыНеПрошедшиеЭкспертизуУправлениеПоискомКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизуУправлениеПоискомРасширеннаяПодсказка" id="104"/>
+							</SearchControlAddition>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСотрудникиСмены" id="63">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверяющий персонал</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСотрудникиСменыРасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<Button name="Подбор" id="87">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Подбор</CommandName>
+							<ExtendedTooltip name="ПодборРасширеннаяПодсказка" id="88"/>
+						</Button>
+						<Table name="СотрудникиСмены" id="65">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ITСпециаласты</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СотрудникиСменыКонтекстноеМеню" id="66"/>
+							<AutoCommandBar name="СотрудникиСменыКоманднаяПанель" id="67"/>
+							<ExtendedTooltip name="СотрудникиСменыРасширеннаяПодсказка" id="68"/>
+							<SearchStringAddition name="СотрудникиСменыСтрокаПоиска" id="69">
+								<AdditionSource>
+									<Item>СотрудникиСмены</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СотрудникиСменыСтрокаПоискаКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="СотрудникиСменыСтрокаПоискаРасширеннаяПодсказка" id="71"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СотрудникиСменыСостояниеПросмотра" id="72">
+								<AdditionSource>
+									<Item>СотрудникиСмены</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СотрудникиСменыСостояниеПросмотраКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="СотрудникиСменыСостояниеПросмотраРасширеннаяПодсказка" id="74"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СотрудникиСменыУправлениеПоиском" id="75">
+								<AdditionSource>
+									<Item>СотрудникиСмены</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СотрудникиСменыУправлениеПоискомКонтекстноеМеню" id="76"/>
+								<ExtendedTooltip name="СотрудникиСменыУправлениеПоискомРасширеннаяПодсказка" id="77"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="ChoiceProcessing">СотрудникиСменыОбработкаВыбора</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="СотрудникиСменыНомерСтроки" id="78">
+									<DataPath>Объект.ITСпециаласты.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СотрудникиСменыНомерСтрокиКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="СотрудникиСменыНомерСтрокиРасширеннаяПодсказка" id="80"/>
+								</LabelField>
+								<InputField name="СотрудникиСменыФИО" id="81">
+									<DataPath>Объект.ITСпециаласты.ФИО</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СотрудникиСменыФИОКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="СотрудникиСменыФИОРасширеннаяПодсказка" id="83"/>
+								</InputField>
+								<InputField name="СотрудникиСменыДолжность" id="84">
+									<DataPath>Объект.ITСпециаласты.Должность</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СотрудникиСменыДолжностьКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="СотрудникиСменыДолжностьРасширеннаяПодсказка" id="86"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="НоменклатураНеПрошедшаяЭкспертизу" id="105">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура не прошедшая экспертизу</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура не прошедшая экспертизу</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="НоменклатураНеПрошедшаяЭкспертизуРасширеннаяПодсказка" id="106"/>
+					<ChildItems>
+						<Table name="ТоварыНеПрошедшиеЭкспертизу1" id="107">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТоварыНеПрошедшиеЭкспертизу</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТоварыНеПрошедшиеЭкспертизу1КонтекстноеМеню" id="108"/>
+							<AutoCommandBar name="ТоварыНеПрошедшиеЭкспертизу1КоманднаяПанель" id="109"/>
+							<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизу1РасширеннаяПодсказка" id="110"/>
+							<SearchStringAddition name="ТоварыНеПрошедшиеЭкспертизу1СтрокаПоиска" id="111">
+								<AdditionSource>
+									<Item>ТоварыНеПрошедшиеЭкспертизу1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыНеПрошедшиеЭкспертизу1СтрокаПоискаКонтекстноеМеню" id="112"/>
+								<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизу1СтрокаПоискаРасширеннаяПодсказка" id="113"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТоварыНеПрошедшиеЭкспертизу1СостояниеПросмотра" id="114">
+								<AdditionSource>
+									<Item>ТоварыНеПрошедшиеЭкспертизу1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыНеПрошедшиеЭкспертизу1СостояниеПросмотраКонтекстноеМеню" id="115"/>
+								<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизу1СостояниеПросмотраРасширеннаяПодсказка" id="116"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТоварыНеПрошедшиеЭкспертизу1УправлениеПоиском" id="117">
+								<AdditionSource>
+									<Item>ТоварыНеПрошедшиеЭкспертизу1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыНеПрошедшиеЭкспертизу1УправлениеПоискомКонтекстноеМеню" id="118"/>
+								<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизу1УправлениеПоискомРасширеннаяПодсказка" id="119"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТоварыНеПрошедшиеЭкспертизу1НомерСтроки" id="120">
+									<DataPath>Объект.ТоварыНеПрошедшиеЭкспертизу.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыНеПрошедшиеЭкспертизу1НомерСтрокиКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизу1НомерСтрокиРасширеннаяПодсказка" id="122"/>
+								</LabelField>
+								<InputField name="ТоварыНеПрошедшиеЭкспертизу1Номенклатура" id="123">
+									<DataPath>Объект.ТоварыНеПрошедшиеЭкспертизу.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыНеПрошедшиеЭкспертизу1НоменклатураКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизу1НоменклатураРасширеннаяПодсказка" id="125"/>
+								</InputField>
+								<InputField name="ТоварыНеПрошедшиеЭкспертизу1Количество" id="126">
+									<DataPath>Объект.ТоварыНеПрошедшиеЭкспертизу.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыНеПрошедшиеЭкспертизу1КоличествоКонтекстноеМеню" id="127"/>
+									<ExtendedTooltip name="ТоварыНеПрошедшиеЭкспертизу1КоличествоРасширеннаяПодсказка" id="128"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЗаключениеОТК</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Подбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подбор</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.БракПроизводства.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

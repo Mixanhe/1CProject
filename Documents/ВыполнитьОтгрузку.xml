@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="5fb70b87-a246-4730-b947-d5b85db8b879">
+	<Document uuid="4b437746-3a6d-423a-bef9-c88a8142b6e8">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ПриемНаРаботу" category="Object">
-				<xr:TypeId>a861e79e-7fe3-43bc-87cc-1f1369a66de7</xr:TypeId>
-				<xr:ValueId>b5b0a5b3-1108-4ce7-bccf-6eb6fb466acf</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ВыполнитьОтгрузку" category="Object">
+				<xr:TypeId>7a88919d-f98f-489e-9421-53302c09ca3b</xr:TypeId>
+				<xr:ValueId>415cacdb-5005-464d-a727-a3401dacb758</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ПриемНаРаботу" category="Ref">
-				<xr:TypeId>b5522ac2-0aec-4294-9c2e-bc7ebc4c9e78</xr:TypeId>
-				<xr:ValueId>72044bd9-edab-4e71-bb61-b09f0721a89e</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ВыполнитьОтгрузку" category="Ref">
+				<xr:TypeId>e2ad6477-6bc5-4dd4-88ab-8c4ee41eda18</xr:TypeId>
+				<xr:ValueId>7676dbd7-0d0e-4b25-9942-6194abf691eb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ПриемНаРаботу" category="Selection">
-				<xr:TypeId>485f6a26-2e9b-4024-be58-eae7cff5688a</xr:TypeId>
-				<xr:ValueId>9f965738-ea4a-4aa8-968d-55acaeb70030</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ВыполнитьОтгрузку" category="Selection">
+				<xr:TypeId>e46d6b34-9e62-4a4d-977f-a287fcfd3727</xr:TypeId>
+				<xr:ValueId>931ddcdf-98c9-4b55-9e22-dce38bd101f5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ПриемНаРаботу" category="List">
-				<xr:TypeId>111c1ba7-a90e-44da-a0ba-b9f065077f01</xr:TypeId>
-				<xr:ValueId>fb09849e-29a8-4850-93a2-7d2f2d84d96f</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ВыполнитьОтгрузку" category="List">
+				<xr:TypeId>bb11b1b0-93f8-4d37-9031-dc185a739225</xr:TypeId>
+				<xr:ValueId>ac15b6a4-9745-4cbe-bdaf-30756d49b1fc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ПриемНаРаботу" category="Manager">
-				<xr:TypeId>35c8f81d-b77c-43ad-bea5-ca4ae076dba4</xr:TypeId>
-				<xr:ValueId>a8aad13d-6130-4098-911b-2a3ffe8cdd51</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ВыполнитьОтгрузку" category="Manager">
+				<xr:TypeId>cc61ffc9-5f3d-4013-a8b3-26ea5756f2c7</xr:TypeId>
+				<xr:ValueId>b557b67d-a4a9-4b1f-bc2c-279c64542b45</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПриемНаРаботу</Name>
+			<Name>ВыполнитьОтгрузку</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Документы для приема на работу</v8:content>
+					<v8:content>Выполнить отгрузку</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,13 +43,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ПриемНаРаботу.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ВыполнитьОтгрузку.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.ПриемНаРаботу.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.ВыполнитьОтгрузку.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -61,7 +61,7 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НачисленияСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -71,18 +71,8 @@
 			<FullTextSearch>Use</FullTextSearch>
 			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документы для приема на работу</v8:content>
-				</v8:item>
-			</ListPresentation>
-			<ExtendedListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документы для приема на работу</v8:content>
-				</v8:item>
-			</ExtendedListPresentation>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
 			<Explanation/>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
@@ -90,106 +80,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="33ad782a-9f29-4c5c-a8ce-b653eb8fc46b">
+			<Attribute uuid="b4bee663-cdfc-491e-9e46-cdc33f8c3a4d">
 				<Properties>
-					<Name>ФИОИДолжность</Name>
+					<Name>ОтгрузкуВыполнил</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ф.И.О. </v8:content>
+							<v8:content>Отгрузку выполнил</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Use</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="d53bc211-8ae8-4218-9ce0-0c9138d494b2">
-				<Properties>
-					<Name>Оклад</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Оклад</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="4e7d97c3-e778-4b5a-89ed-5a961e046274">
-				<Properties>
-					<Name>Премия</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Премия</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -218,23 +120,23 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="49b79185-30fb-4bd6-a69f-b45d4e0f1f30">
+			<TabularSection uuid="013b276c-8c2d-4059-b3de-f9d99f2f3285">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ПриемНаРаботу.ПредыдущиеМестаРаботы" category="TabularSection">
-						<xr:TypeId>3e0ff34c-2bee-4162-88c2-4e4fd261fb61</xr:TypeId>
-						<xr:ValueId>69583c77-7d54-4be5-b23a-b5a146f474f5</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ВыполнитьОтгрузку.СписокОтгружаемойНоменклатуры" category="TabularSection">
+						<xr:TypeId>97b8cb63-3304-452f-9c40-da8e6c6a1713</xr:TypeId>
+						<xr:ValueId>7284e7d5-b66e-4b75-8d20-8b891dcba084</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ПриемНаРаботу.ПредыдущиеМестаРаботы" category="TabularSectionRow">
-						<xr:TypeId>77ef1267-7564-4324-9eb7-712a4355fb79</xr:TypeId>
-						<xr:ValueId>ff03358b-cd75-4df4-b2f0-64c3c1349d65</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыполнитьОтгрузку.СписокОтгружаемойНоменклатуры" category="TabularSectionRow">
+						<xr:TypeId>093c1f7d-ecce-4411-89bf-9d14a15ecd0a</xr:TypeId>
+						<xr:ValueId>4e9d145c-ed20-4b5d-b13b-91a3704e6dc5</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>ПредыдущиеМестаРаботы</Name>
+					<Name>СписокОтгружаемойНоменклатуры</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Предыдущие места работы</v8:content>
+							<v8:content>Список отгружаемой номенклатуры</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -242,22 +144,18 @@
 					<FillChecking>DontCheck</FillChecking>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="d9e87bdc-6319-4b2f-9748-669a6c93d338">
+					<Attribute uuid="479df748-a2fd-4835-a07b-1f4a5a36e47e">
 						<Properties>
-							<Name>НазваниеОрганизации</Name>
+							<Name>Номенклатура</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Название организации</v8:content>
+									<v8:content>Номенклатура</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -283,22 +181,23 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="70d8accf-2e99-420f-a0ac-cb0c5f79bf3a">
+					<Attribute uuid="022721e1-b1d4-4e76-8f43-f44b2f13bd34">
 						<Properties>
-							<Name>ДатаНачалаРаботы</Name>
+							<Name>Количество</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Дата начала работы</v8:content>
+									<v8:content>Количество</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -324,22 +223,72 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5ca04643-8cab-4e9f-b44e-86a3c77ba5e3">
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="ca43fd9b-472a-43d5-a764-67dc4e6c477a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВыполнитьОтгрузку.СписокГотовойНоменклатуры" category="TabularSection">
+						<xr:TypeId>659ae09a-13da-48ef-86d8-844b216eb1b1</xr:TypeId>
+						<xr:ValueId>16c2e9f5-36d6-4e82-885e-cddaa15dbaf6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыполнитьОтгрузку.СписокГотовойНоменклатуры" category="TabularSectionRow">
+						<xr:TypeId>0a87974c-280c-426f-abf0-16383ad8cf0d</xr:TypeId>
+						<xr:ValueId>fcc07a68-2d35-4f7d-9977-10650d1a633c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СписокГотовойНоменклатуры</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список готовой номенклатуры</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="05808673-fed8-4094-b956-21d266971d60">
 						<Properties>
-							<Name>ДатаОкончанияРаботы</Name>
+							<Name>Номенклатура</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Дата окончания работы</v8:content>
+									<v8:content>Номенклатура</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -365,22 +314,23 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0ffdca30-3bf0-4ef3-96ae-23e2a11a394f">
+					<Attribute uuid="1c954856-a80b-4df3-a37e-906d624260ff">
 						<Properties>
-							<Name>Должность</Name>
+							<Name>Количество</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Должность</v8:content>
+									<v8:content>Количество</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

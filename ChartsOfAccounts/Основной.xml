@@ -50,7 +50,7 @@
 			<DescriptionLength>100</DescriptionLength>
 			<CodeSeries>WholeChartOfAccounts</CodeSeries>
 			<CheckUnique>true</CheckUnique>
-			<DefaultPresentation>AsCode</DefaultPresentation>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>

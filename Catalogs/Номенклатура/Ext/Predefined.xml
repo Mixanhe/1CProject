@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="ff4d317b-6be8-4f97-bf9f-4a614e45cc52">
+		<Name>БракованнаяНоменклатура</Name>
+		<Code>000000010</Code>
+		<Description>Бракованная номенклатура</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="69964e82-0f41-4894-b87f-ae1420ee62b2">
+				<Name>МикропроцессорБрак</Name>
+				<Code>000000011</Code>
+				<Description>Микропроцессор  ( брак)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

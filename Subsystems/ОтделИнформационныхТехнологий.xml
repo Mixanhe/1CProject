@@ -19,6 +19,7 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПрограммированиеИНастройкаПроцессоров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ТребованиеНакладная</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

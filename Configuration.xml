@@ -193,10 +193,11 @@
 			<Subsystem>Бухгалтерия</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Предприятие</Subsystem>
-			<Subsystem>РасчетыССотрудниками</Subsystem>
+			<Subsystem>ЗарплатаИКадры</Subsystem>
 			<Subsystem>ПириделкиИРазработки</Subsystem>
 			<Subsystem>Производство</Subsystem>
 			<Subsystem>ОтделИнформационныхТехнологий</Subsystem>
+			<Subsystem>КонтрольКачества</Subsystem>
 			<CommonPicture>ПодсистемаБухгалтерия</CommonPicture>
 			<CommonPicture>ПодсистемаРаботаСКонтрагентами</CommonPicture>
 			<CommonPicture>ПодсистемаПредприятие</CommonPicture>
@@ -206,6 +207,7 @@
 			<CommonPicture>ПодсистемаПириделки</CommonPicture>
 			<CommonPicture>ПодсистемаПроизводство</CommonPicture>
 			<CommonPicture>ПодсистемаОтделИнформационныхТехнологий</CommonPicture>
+			<CommonPicture>ПодсистемаКонтрольКачества</CommonPicture>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РаботаСРегистрами</CommonModule>
@@ -237,6 +239,11 @@
 			<Document>ПроизводствоЗаСмену</Document>
 			<Document>УстановкаРабочейСмены</Document>
 			<Document>ПрограммированиеИНастройкаПроцессоров</Document>
+			<Document>ЗаключениеОТК</Document>
+			<Document>ЗафиксироватьБракованнуюНоменклатуру</Document>
+			<Document>ВыполнитьОтгрузку</Document>
+			<Document>БухгалтерскаяОперация</Document>
+			<Document>ЗакрытиеМесяца</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
@@ -260,6 +267,7 @@
 			<AccumulationRegister>ДолгиПоЗаработнойПлатеСотрудникам</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>СебестоимостьНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>БракПроизводства</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ХарактеристикиПроцессоров</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Основной</ChartOfAccounts>
 			<AccountingRegister>Расчетный</AccountingRegister>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ОтгрузкуВыполнил" id="7">
+			<DataPath>Объект.ОтгрузкуВыполнил</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтгрузкуВыполнилКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОтгрузкуВыполнилРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Pages name="Страницы" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<Page name="ГруппаСписокОтгружаемойНоменклатуры" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список отгружаемой номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСписокОтгружаемойНоменклатурыРасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<Table name="СписокОтгружаемойНоменклатуры" id="14">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СписокОтгружаемойНоменклатуры</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокОтгружаемойНоменклатурыКонтекстноеМеню" id="15"/>
+							<AutoCommandBar name="СписокОтгружаемойНоменклатурыКоманднаяПанель" id="16"/>
+							<ExtendedTooltip name="СписокОтгружаемойНоменклатурыРасширеннаяПодсказка" id="17"/>
+							<SearchStringAddition name="СписокОтгружаемойНоменклатурыСтрокаПоиска" id="18">
+								<AdditionSource>
+									<Item>СписокОтгружаемойНоменклатуры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОтгружаемойНоменклатурыСтрокаПоискаКонтекстноеМеню" id="19"/>
+								<ExtendedTooltip name="СписокОтгружаемойНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокОтгружаемойНоменклатурыСостояниеПросмотра" id="21">
+								<AdditionSource>
+									<Item>СписокОтгружаемойНоменклатуры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОтгружаемойНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="СписокОтгружаемойНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокОтгружаемойНоменклатурыУправлениеПоиском" id="24">
+								<AdditionSource>
+									<Item>СписокОтгружаемойНоменклатуры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОтгружаемойНоменклатурыУправлениеПоискомКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="СписокОтгружаемойНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокОтгружаемойНоменклатурыНомерСтроки" id="27">
+									<DataPath>Объект.СписокОтгружаемойНоменклатуры.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокОтгружаемойНоменклатурыНомерСтрокиКонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="СписокОтгружаемойНоменклатурыНомерСтрокиРасширеннаяПодсказка" id="29"/>
+								</LabelField>
+								<InputField name="СписокОтгружаемойНоменклатурыНоменклатура" id="30">
+									<DataPath>Объект.СписокОтгружаемойНоменклатуры.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокОтгружаемойНоменклатурыНоменклатураКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="СписокОтгружаемойНоменклатурыНоменклатураРасширеннаяПодсказка" id="32"/>
+								</InputField>
+								<InputField name="СписокОтгружаемойНоменклатурыКоличество" id="33">
+									<DataPath>Объект.СписокОтгружаемойНоменклатуры.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокОтгружаемойНоменклатурыКоличествоКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="СписокОтгружаемойНоменклатурыКоличествоРасширеннаяПодсказка" id="35"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСписокГотовойНоменклатуры" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список готовой номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСписокГотовойНоменклатурыРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<Table name="СписокГотовойНоменклатуры" id="38">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СписокГотовойНоменклатуры</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокГотовойНоменклатурыКонтекстноеМеню" id="39"/>
+							<AutoCommandBar name="СписокГотовойНоменклатурыКоманднаяПанель" id="40"/>
+							<ExtendedTooltip name="СписокГотовойНоменклатурыРасширеннаяПодсказка" id="41"/>
+							<SearchStringAddition name="СписокГотовойНоменклатурыСтрокаПоиска" id="42">
+								<AdditionSource>
+									<Item>СписокГотовойНоменклатуры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокГотовойНоменклатурыСтрокаПоискаКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="СписокГотовойНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокГотовойНоменклатурыСостояниеПросмотра" id="45">
+								<AdditionSource>
+									<Item>СписокГотовойНоменклатуры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокГотовойНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="СписокГотовойНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокГотовойНоменклатурыУправлениеПоиском" id="48">
+								<AdditionSource>
+									<Item>СписокГотовойНоменклатуры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокГотовойНоменклатурыУправлениеПоискомКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="СписокГотовойНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокГотовойНоменклатурыНомерСтроки" id="51">
+									<DataPath>Объект.СписокГотовойНоменклатуры.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокГотовойНоменклатурыНомерСтрокиКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="СписокГотовойНоменклатурыНомерСтрокиРасширеннаяПодсказка" id="53"/>
+								</LabelField>
+								<InputField name="СписокГотовойНоменклатурыНоменклатура" id="54">
+									<DataPath>Объект.СписокГотовойНоменклатуры.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокГотовойНоменклатурыНоменклатураКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="СписокГотовойНоменклатурыНоменклатураРасширеннаяПодсказка" id="56"/>
+								</InputField>
+								<InputField name="СписокГотовойНоменклатурыКоличество" id="57">
+									<DataPath>Объект.СписокГотовойНоменклатуры.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокГотовойНоменклатурыКоличествоКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="СписокГотовойНоменклатурыКоличествоРасширеннаяПодсказка" id="59"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВыполнитьОтгрузку</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

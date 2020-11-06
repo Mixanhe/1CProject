@@ -12,4 +12,10 @@
 		<Description>Отдел технического контроля</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="47c41e10-1c4f-42c4-8b2a-cc8e03bd1311">
+		<Name>СкладБрака</Name>
+		<Code>000000007</Code>
+		<Description>Склад брака</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
