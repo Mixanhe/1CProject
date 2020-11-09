@@ -50,8 +50,18 @@
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 			<FullTextSearch>DontUse</FullTextSearch>
-			<ListPresentation/>
-			<ExtendedListPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бухгалтерские операции</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<ExtendedListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал бухгалтерских операций</v8:content>
+				</v8:item>
+			</ExtendedListPresentation>
 			<Explanation/>
 		</Properties>
 		<ChildObjects>

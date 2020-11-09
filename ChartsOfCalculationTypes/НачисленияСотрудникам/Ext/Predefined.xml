@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.10">
+	<Item id="7f377693-6f80-445e-9ed5-036f5fbfd2d3">
+		<Name>Больничный</Name>
+		<Code>4</Code>
+		<Description>Больничный</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
 	<Item id="2cc64d5b-3685-4d74-9e4f-3f70104cb6b3">
 		<Name>Невыход</Name>
 		<Code>3</Code>
