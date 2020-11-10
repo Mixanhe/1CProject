@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Report uuid="48bdbdf3-3b87-4018-ba13-fa990f4d760c">
+	<Report uuid="0d7bb93e-b251-4227-a645-d4b5f57feb1c">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.Баланс" category="Object">
-				<xr:TypeId>3f6bd431-48d4-48a3-8ff4-962843cb0c31</xr:TypeId>
-				<xr:ValueId>8b41a097-9fcc-4c72-9f5a-7830e1ed9d7a</xr:ValueId>
+				<xr:TypeId>7ee0e30e-2bfc-41c3-b910-6ff24b2aff20</xr:TypeId>
+				<xr:ValueId>718926fc-1693-4123-9777-17682d1f88bb</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.Баланс" category="Manager">
-				<xr:TypeId>fd7cd46e-b4b6-4304-b986-693d8c0515be</xr:TypeId>
-				<xr:ValueId>fef31a54-5c1d-4cc2-8120-3f4467289e52</xr:ValueId>
+				<xr:TypeId>ae579c65-3d68-4339-916f-8cd303d20f11</xr:TypeId>
+				<xr:ValueId>0040f216-ba9a-4bf9-ad57-6a7392728aed</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

@@ -33,10 +33,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ЧистаяПрибыль</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.БухгалтерскаяОперация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗакрытиеМесяца</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Баланс</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОборотноСальдоваяВедомость</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализСчета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетОФинансовыхРезультатах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Баланс</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

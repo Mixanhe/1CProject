@@ -256,10 +256,10 @@
 			<Report>ВаловаяПрибыль</Report>
 			<Report>ЧистаяПрибыль</Report>
 			<Report>ОтчетПоПроизводствуЗаСмену</Report>
-			<Report>Баланс</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<Report>АнализСчета</Report>
 			<Report>ОтчетОФинансовыхРезультатах</Report>
+			<Report>Баланс</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>

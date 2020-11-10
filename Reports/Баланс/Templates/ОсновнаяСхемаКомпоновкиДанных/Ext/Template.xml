@@ -7,14 +7,12 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаОстатокДт</dataPath>
-			<field>СуммаОстатокДт</field>
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
 			<role>
-				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>СуммаОстаток</dcscom:balanceGroupName>
-				<dcscom:balanceType>None</dcscom:balanceType>
-				<dcscom:accountingBalanceType>Debit</dcscom:accountingBalanceType>
-				<dcscom:accountField>Счет</dcscom:accountField>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:account>true</dcscom:account>
+				<dcscom:accountTypeExpression>Счет.Вид</dcscom:accountTypeExpression>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -29,21 +27,23 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Счет</dataPath>
-			<field>Счет</field>
+			<dataPath>СуммаОстатокДт</dataPath>
+			<field>СуммаОстатокДт</field>
 			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-				<dcscom:account>true</dcscom:account>
-				<dcscom:accountTypeExpression>Счет.Вид</dcscom:accountTypeExpression>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>СуммаОстаток</dcscom:balanceGroupName>
+				<dcscom:balanceType>None</dcscom:balanceType>
+				<dcscom:accountingBalanceType>Debit</dcscom:accountingBalanceType>
+				<dcscom:accountField>Счет</dcscom:accountField>
 			</role>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	РасчетныйОстатки.СуммаОстатокДт КАК СуммаОстатокДт,
-	РасчетныйОстатки.СуммаОстатокКт КАК СуммаОстатокКт,
-	РасчетныйОстатки.Счет КАК Счет
+	РегистрБухУчетОстатки.Счет,
+	РегистрБухУчетОстатки.СуммаОстатокДт,
+	РегистрБухУчетОстатки.СуммаОстатокКт
 ИЗ
-	РегистрБухгалтерии.Расчетный.Остатки КАК РасчетныйОстатки</query>
+	РегистрБухгалтерии.Расчетный.Остатки КАК РегистрБухУчетОстатки</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СуммаОстатокДт</dataPath>
@@ -79,7 +79,7 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>8fe0e82d-20ed-4d0c-a24c-0727f50d0111</dcsset:userSettingID>
+					<dcsset:userSettingID>90ba6211-d38f-4a78-823a-ba9140f2cfdf</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
@@ -104,10 +104,6 @@
 				</dcsset:selection>
 				<dcsset:outputParameters>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
-						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Auto</dcscor:value>
-					</dcscor:item>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>Заголовок</dcscor:parameter>
 						<dcscor:value xsi:type="v8:LocalStringType">
 							<v8:item>
@@ -115,6 +111,10 @@
 								<v8:content>Активы</v8:content>
 							</v8:item>
 						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
 					</dcscor:item>
 				</dcsset:outputParameters>
 			</dcsset:item>
@@ -148,7 +148,50 @@
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
 				</dcsset:outputParameters>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>Резервный</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Резервный</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаОстатокДт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаОстатокКт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Счет</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Счет</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
