@@ -258,8 +258,8 @@
 			<Report>ОтчетПоПроизводствуЗаСмену</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<Report>АнализСчета</Report>
-			<Report>ОтчетОФинансовыхРезультатах</Report>
 			<Report>Баланс</Report>
+			<Report>ОтчетОФинансовыхРезультатах</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>

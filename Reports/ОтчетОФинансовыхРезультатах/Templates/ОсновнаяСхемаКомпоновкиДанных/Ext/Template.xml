@@ -107,10 +107,6 @@
 		<expression>Сумма(Выручка)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>[Рентабельность по валовой прибыли]</dataPath>
-		<expression>Окр(Сумма(ЧистаяПрибыль)/Сумма(Выручка)*100, 2)</expression>
-	</totalField>
-	<totalField>
 		<dataPath>НалогНаПрибыль</dataPath>
 		<expression>НалогНаПрибыль</expression>
 	</totalField>
@@ -169,13 +165,7 @@
 					<dcsset:field>Выручка</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Контрагент</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>НалогНаПрибыль</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Номенклатура</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ОперационныеРасходы</dcsset:field>
@@ -209,30 +199,47 @@
 					</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>
-			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:groupItems>
-					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Контрагент</dcsset:field>
-						<dcsset:groupType>Items</dcsset:groupType>
-						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
-					</dcsset:item>
-				</dcsset:groupItems>
-				<dcsset:order>
-					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-				</dcsset:order>
-				<dcsset:selection>
-					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-				</dcsset:selection>
-				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВаловаяПрибыль</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					</dcsset:order>
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ВаловаяПрибыль</dcsset:field>
+						</dcsset:item>
 					</dcsset:selection>
-				</dcsset:item>
+				</dcsset:row>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Выручка</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Выручка</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:row>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
