@@ -27,10 +27,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаОборотДт</dataPath>
-			<field>СуммаОборотДт</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаКонечныйОстатокДт</dataPath>
 			<field>СуммаКонечныйОстатокДт</field>
 			<role>
@@ -40,6 +36,10 @@
 				<dcscom:accountingBalanceType>Debit</dcscom:accountingBalanceType>
 				<dcscom:accountField>Счет</dcscom:accountField>
 			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОборотДт</dataPath>
+			<field>СуммаОборотДт</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаНачальныйОстатокКт</dataPath>
@@ -53,10 +53,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаОборотКт</dataPath>
-			<field>СуммаОборотКт</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаКонечныйОстатокКт</dataPath>
 			<field>СуммаКонечныйОстатокКт</field>
 			<role>
@@ -67,15 +63,19 @@
 				<dcscom:accountField>Счет</dcscom:accountField>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОборотКт</dataPath>
+			<field>СуммаОборотКт</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	РасчетныйОстаткиИОбороты.Счет КАК Счет,
 	РасчетныйОстаткиИОбороты.СуммаНачальныйОстатокДт КАК СуммаНачальныйОстатокДт,
 	РасчетныйОстаткиИОбороты.СуммаНачальныйОстатокКт КАК СуммаНачальныйОстатокКт,
-	РасчетныйОстаткиИОбороты.СуммаКонечныйОстатокДт КАК СуммаКонечныйОстатокДт,
-	РасчетныйОстаткиИОбороты.СуммаКонечныйОстатокКт КАК СуммаКонечныйОстатокКт,
 	РасчетныйОстаткиИОбороты.СуммаОборотДт КАК СуммаОборотДт,
-	РасчетныйОстаткиИОбороты.СуммаОборотКт КАК СуммаОборотКт
+	РасчетныйОстаткиИОбороты.СуммаОборотКт КАК СуммаОборотКт,
+	РасчетныйОстаткиИОбороты.СуммаКонечныйОстатокДт КАК СуммаКонечныйОстатокДт,
+	РасчетныйОстаткиИОбороты.СуммаКонечныйОстатокКт КАК СуммаКонечныйОстатокКт
 ИЗ
 	РегистрБухгалтерии.Расчетный.ОстаткиИОбороты КАК РасчетныйОстаткиИОбороты
 ГДЕ
@@ -160,9 +160,6 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Счет</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаНачальныйОстатокДт</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -179,6 +176,9 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаКонечныйОстатокКт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Счет</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
@@ -198,9 +198,26 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Счет</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>3f8b914c-b920-4f08-9155-e5151bf4f59d</dcsset:userSettingID>
+					<dcsset:userSettingID>057fe92c-df6c-42cc-8487-3a1da7076867</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Счет</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>

@@ -245,6 +245,7 @@
 			<Document>ВыполнитьОтгрузку</Document>
 			<Document>БухгалтерскаяОперация</Document>
 			<Document>ЗакрытиеМесяца</Document>
+			<Document>РеализацияТоваровИУслугНовая</Document>
 			<DocumentJournal>ДокументыНаПоставкуТоваров</DocumentJournal>
 			<Report>ОстаткиНаСкладах</Report>
 			<Report>РасходыНаПоставку</Report>
