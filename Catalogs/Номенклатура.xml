@@ -304,8 +304,8 @@
 			<DefaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm>Catalog.Номенклатура.Form.ФормаГруппы</DefaultFolderForm>
 			<DefaultListForm>Catalog.Номенклатура.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm/>
-			<DefaultFolderChoiceForm/>
+			<DefaultChoiceForm>Catalog.Номенклатура.Form.ФормаВыбора</DefaultChoiceForm>
+			<DefaultFolderChoiceForm>Catalog.Номенклатура.Form.ФормаВыбораГруппы</DefaultFolderChoiceForm>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
 			<AuxiliaryListForm/>
@@ -331,6 +331,8 @@
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаГруппы</Form>
+			<Form>ФормаВыбора</Form>
+			<Form>ФормаВыбораГруппы</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
