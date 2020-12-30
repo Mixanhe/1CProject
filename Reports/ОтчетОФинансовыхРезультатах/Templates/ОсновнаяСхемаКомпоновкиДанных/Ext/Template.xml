@@ -7,10 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Сотрудник</dataPath>
-			<field>Сотрудник</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Номенклатура</dataPath>
 			<field>Номенклатура</field>
 			<role>
@@ -20,39 +16,6 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Контрагент</dataPath>
 			<field>Контрагент</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ОперационныеРасходы</dataPath>
-			<field>ОперационныеРасходы</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Операционные расходы</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЧистаяПрибыль</dataPath>
-			<field>ЧистаяПрибыль</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Чистая прибыль</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>[Рентабельность по валовой прибыли]</dataPath>
-			<field>Рентабельность</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>[ рентабельность по валовой прибыли]</v8:content>
-				</v8:item>
-			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Выручка</dataPath>
@@ -61,16 +24,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выручка</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>НалогНаПрибыль</dataPath>
-			<field>НалогНаПрибыль</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Налог на прибыль</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -84,39 +37,92 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СебестоимостьПродаж</dataPath>
+			<field>СебестоимостьПродаж</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Себестоимость продаж</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоходыОтУчастияВДругихОрганизациях</dataPath>
+			<field>ДоходыОтУчастияВДругихОрганизациях</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доходы от участия в других организациях</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УправленческиеРасходы</dataPath>
+			<field>УправленческиеРасходы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Управленческие расходы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоммерческиеРасходы</dataPath>
+			<field>КоммерческиеРасходы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коммерческие расходы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПрибыльОтПродаж</dataPath>
+			<field>ПрибыльОтПродаж</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прибыль от продаж</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ДолгиПоЗаработнойПлатеСотрудникамОбороты.СуммаРасход КАК ОперационныеРасходы,
-	ПродажиОбороты.Контрагент КАК Контрагент,
 	ПродажиОбороты.Номенклатура КАК Номенклатура,
-	ПродажиОбороты.СуммаОборот - ПродажиОбороты.СебестоимостьОборот КАК ЧистаяПрибыль,
-	ПродажиОбороты.СуммаОборот - ПродажиОбороты.СебестоимостьОборот КАК ВаловаяПрибыль,
-	(ПродажиОбороты.СуммаОборот - ПродажиОбороты.СуммаОборот - ПродажиОбороты.СебестоимостьОборот) / ПродажиОбороты.СуммаОборот * 100 КАК Рентабельность,
 	ПродажиОбороты.СуммаОборот КАК Выручка,
-	ДолгиПоЗаработнойПлатеСотрудникамОбороты.СуммаРасход * 20 / 100 КАК НалогНаПрибыль
+	ПродажиОбороты.СебестоимостьОборот КАК СебестоимостьПродаж,
+	ПродажиОбороты.СуммаОборот - ПродажиОбороты.СебестоимостьОборот КАК ВаловаяПрибыль,
+	0 КАК КоммерческиеРасходы,
+	0 КАК УправленческиеРасходы,
+	0 КАК ПрибыльОтПродаж,
+	0 КАК ДоходыОтУчастияВДругихОрганизациях
 ИЗ
-	РегистрНакопления.ДолгиПоЗаработнойПлатеСотрудникам.Обороты КАК ДолгиПоЗаработнойПлатеСотрудникамОбороты,
 	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
 	</dataSet>
 	<totalField>
-		<dataPath>ЧистаяПрибыль</dataPath>
-		<expression>Сумма(ЧистаяПрибыль) - (ОперационныеРасходы + НалогНаПрибыль)</expression>
+		<dataPath>ВаловаяПрибыль</dataPath>
+		<expression>Сумма(ВаловаяПрибыль)</expression>
 	</totalField>
 	<totalField>
 		<dataPath>Выручка</dataPath>
 		<expression>Сумма(Выручка)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>НалогНаПрибыль</dataPath>
-		<expression>НалогНаПрибыль</expression>
+		<dataPath>КоммерческиеРасходы</dataPath>
+		<expression>Сумма(КоммерческиеРасходы)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>ОперационныеРасходы</dataPath>
-		<expression>ОперационныеРасходы</expression>
+		<dataPath>ПрибыльОтПродаж</dataPath>
+		<expression>Сумма(ПрибыльОтПродаж)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>ВаловаяПрибыль</dataPath>
-		<expression>Сумма(ВаловаяПрибыль)</expression>
+		<dataPath>СебестоимостьПродаж</dataPath>
+		<expression>Сумма(СебестоимостьПродаж)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>УправленческиеРасходы</dataPath>
+		<expression>Сумма(УправленческиеРасходы)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -159,19 +165,25 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ВаловаяПрибыль</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Выручка</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>НалогНаПрибыль</dcsset:field>
+					<dcsset:field>СебестоимостьПродаж</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОперационныеРасходы</dcsset:field>
+					<dcsset:field>ВаловаяПрибыль</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЧистаяПрибыль</dcsset:field>
+					<dcsset:field>КоммерческиеРасходы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УправленческиеРасходы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПрибыльОтПродаж</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДоходыОтУчастияВДругихОрганизациях</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
@@ -190,15 +202,31 @@
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Auto</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРесурсов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesPlacement">Vertically</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Заголовок</dcscor:parameter>
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Чистая прибыль за период</v8:content>
+							<v8:content>Отчет о финансовых результатах</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
 	<settingsVariant>

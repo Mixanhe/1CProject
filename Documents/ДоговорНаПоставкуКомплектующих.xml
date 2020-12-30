@@ -400,6 +400,9 @@
 				</ChildObjects>
 			</TabularSection>
 			<Template>Печать</Template>
+			<Template>ГарантийныйТалон</Template>
+			<Template>ПростойWord</Template>
+			<Template>WordДоговор</Template>
 			<Command uuid="b9890468-39b1-4f05-99c0-f7eb9d481062">
 				<Properties>
 					<Name>Печать</Name>
@@ -410,6 +413,75 @@
 						<v8:Type>cfg:DocumentRef.ДоговорНаПоставкуКомплектующих</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+			<Command uuid="616d58ac-d439-48d0-b7f7-1fc261407dd6">
+				<Properties>
+					<Name>ПечатьГарантийныйТалон</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гарантийный талон</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.ДоговорНаПоставкуКомплектующих</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+			<Command uuid="d96de9e8-df0e-4496-a23f-08a5d55fd5ed">
+				<Properties>
+					<Name>ПечатьВорд</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать ворд</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.ДоговорНаПоставкуКомплектующих</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+			<Command uuid="ba502d80-97f4-4ab3-9dee-d1b416dd2af7">
+				<Properties>
+					<Name>ДоговорWord</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор word</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.ДоговорНаПоставкуКомплектующих</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>
 					<Representation>Auto</Representation>
 					<ToolTip/>

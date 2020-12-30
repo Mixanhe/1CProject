@@ -3,7 +3,15 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПроверочнаяКнопка" id="50">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПроверочнаяКнопка</CommandName>
+				<ExtendedTooltip name="ФормаПроверочнаяКнопкаРасширеннаяПодсказка" id="51"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
@@ -135,4 +143,21 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ПроверочнаяКнопка" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверочная кнопка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверочная кнопка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверочнаяКнопка</Action>
+		</Command>
+	</Commands>
 </Form>

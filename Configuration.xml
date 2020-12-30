@@ -208,6 +208,8 @@
 			<CommonPicture>ПодсистемаПроизводство</CommonPicture>
 			<CommonPicture>ПодсистемаОтделИнформационныхТехнологий</CommonPicture>
 			<CommonPicture>ПодсистемаКонтрольКачества</CommonPicture>
+			<Role>Администратор</Role>
+			<Role>Программист</Role>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РаботаСРегистрами</CommonModule>
@@ -224,6 +226,8 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Должности</Catalog>
+			<Catalog>ВариантыНоменклатуры</Catalog>
+			<Catalog>ДополнительныеСвойстваНоменклатуры</Catalog>
 			<Document>ВводНачальныхДанныхОСотрудниках</Document>
 			<Document>ДоговорНаПоставкуКомплектующих</Document>
 			<Document>ТоварнаяНакладная</Document>
@@ -261,12 +265,15 @@
 			<Report>АнализСчета</Report>
 			<Report>Баланс</Report>
 			<Report>ОтчетОФинансовыхРезультатах</Report>
+			<Report>ПродажиПоКонтрагентам</Report>
 			<DataProcessor>УстановкаНерабочихДней</DataProcessor>
+			<DataProcessor>ВЫФ</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
 			<InformationRegister>ГрафикРаботыПредприятия</InformationRegister>
 			<InformationRegister>НачисленияСотрудников</InformationRegister>
 			<InformationRegister>ПеределанныйГрафикРаботыПредприятия</InformationRegister>
 			<InformationRegister>ОтработанныеСмены</InformationRegister>
+			<InformationRegister>ЗначениеСвойствНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>РасходыНаПоставкуСырья</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
@@ -276,6 +283,7 @@
 			<AccumulationRegister>БракПроизводства</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ХарактеристикиПроцессоров</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>БанковскиеСчета</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>Харакири</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Основной</ChartOfAccounts>
 			<AccountingRegister>Расчетный</AccountingRegister>
 			<ChartOfCalculationTypes>НачисленияСотрудникам</ChartOfCalculationTypes>
